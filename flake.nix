@@ -10,7 +10,7 @@
     in
     {
       nixPackages = forAllSystems (system:
-        (import nixpkgs { inherit system; })
+        nixpkgs.legacyPackages.${system}
       );
 
       # auxPackages = forAllSystems (system:
