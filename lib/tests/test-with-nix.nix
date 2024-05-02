@@ -17,6 +17,7 @@
 pkgs.runCommand "nixpkgs-lib-tests-nix-${nix.version}" {
   buildInputs = [
     (import ./check-eval.nix)
+    # FIXME: reimplement maintainers and teams
     # (import ./maintainers.nix {
     #   inherit pkgs;
     #   lib = import ../.;
