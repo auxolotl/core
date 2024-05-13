@@ -21,7 +21,7 @@
   # `*Platform`s.
   localSystem
 
-, lib
+, lib ? import <auxlib>
 
 , # The system packages will ultimately be run on.
   crossSystem ? localSystem
