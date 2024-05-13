@@ -11,7 +11,7 @@
   }
 , docCargoHash ? null
 , patches ? [ ]
-, maintainers ? lib.teams.lix.members
+, maintainers ? []
 ,
 }@args:
 assert (hash == null) -> (src != null);

@@ -73,7 +73,7 @@ rustPlatform.buildRustPackage.override {
     homepage = "https://crates.io";
     description = "Downloads your Rust project's dependencies and builds your project";
     mainProgram = "cargo";
-    maintainers = teams.rust.members;
+    # maintainers = teams.rust.members;
     license = [ licenses.mit licenses.asl20 ];
     platforms = platforms.unix;
     # https://github.com/alexcrichton/nghttp2-rs/issues/2
