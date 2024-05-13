@@ -1,6 +1,44 @@
 {
   "nodes": {
-    "root": {}
+    "auxlib": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1715625782,
+        "narHash": "sha256-RW3rF4YJq52CVwAzrL+5kh0pSuZY3DZ4tsH7JrR/n8k=",
+        "owner": "auxolotl",
+        "repo": "lib",
+        "rev": "07f7052306b40b14c07055f9033fad9fd60a1b94",
+        "type": "github"
+      },
+      "original": {
+        "owner": "auxolotl",
+        "repo": "lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1715395895,
+        "narHash": "sha256-DreMqi6+qa21ffLQqhMQL2XRUkAGt3N7iVB5FhJKie4=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "71bae31b7dbc335528ca7e96f479ec93462323ff",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-23.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "auxlib": "auxlib"
+      }
+    }
   },
   "root": "root",
   "version": 7
