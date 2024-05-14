@@ -1,17 +1,10 @@
 {
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-  };
-
-  outputs =
-    { self, nixpkgs, ... }:
+  outputs = { self, ... }:
     let
       forAllSystems = self.lib.genAttrs self.lib.systems.flakeExposed;
     in
     {
       lib = import ./lib;
-
-      nixPackages = forAllSystems (system: nixpkgs.legacyPackages.${system});
 
       auxPackages = forAllSystems (system:
         (
@@ -41,6 +34,8 @@
             import ./pkgs/top-level/default.nix { localSystem = system; }
         )
       );
+
+      legacyPackages = forAllSystems (system: import ./. { inherit system; });
 
       # To test, run nix build .#tests.x86_64-linux.release
       tests = forAllSystems (system: {
