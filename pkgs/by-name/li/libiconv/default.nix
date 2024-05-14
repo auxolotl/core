@@ -2,6 +2,7 @@
 , enableStatic ? stdenv.hostPlatform.isStatic
 , enableShared ? !stdenv.hostPlatform.isStatic
 , enableDarwinABICompat ? false
+, path
 }:
 
 # assert !stdenv.hostPlatform.isLinux || stdenv.hostPlatform != stdenv.buildPlatform; # TODO: improve on cross
@@ -18,7 +19,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   setupHooks = [
-    ../../../build-support/setup-hooks/role.bash
+    (path + "/pkgs/build-support/setup-hooks/role.bash")
     ./setup-hook.sh
   ];
 

@@ -3,6 +3,7 @@
   runCommand,
   writeText,
   sdkVersion,
+  path
 }:
 
 let
@@ -39,7 +40,7 @@ runCommand "sdkroot-${sdkVersion}" { } ''
 
   ln -s "$sdk" "$sdk/usr"
 
-  install -D '${../../../build-support/setup-hooks/role.bash}' "$out/nix-support/setup-hook"
+  install -D '${path + "/pkgs/build-support/setup-hooks/role.bash"}' "$out/nix-support/setup-hook"
   cat >> "$out/nix-support/setup-hook" <<-hook
   #
   # See comments in cc-wrapper's setup hook. This works exactly the same way.
@@ -47,7 +48,7 @@ runCommand "sdkroot-${sdkVersion}" { } ''
   [[ -z \''${strictDeps-} ]] || (( "\$hostOffset" < 0 )) || return 0
 
   sdkRootHook() {
-    # See ../../../build-support/setup-hooks/role.bash
+    # See pkgs/build-support/setup-hooks/role.bash
     local role_post
     getHostRoleEnvHook
 
@@ -57,7 +58,7 @@ runCommand "sdkroot-${sdkVersion}" { } ''
     fi
   }
 
-  # See ../../../build-support/setup-hooks/role.bash
+  # See pkgs/build-support/setup-hooks/role.bash
   getTargetRole
 
   addEnvHooks "\$targetOffset" sdkRootHook

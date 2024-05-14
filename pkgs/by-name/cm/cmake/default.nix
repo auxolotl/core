@@ -199,6 +199,6 @@ stdenv.mkDerivation (finalAttrs: {
     maintainers = with lib.maintainers; [ ttuegel lnl7 AndersonTorres ];
     platforms = lib.platforms.all;
     mainProgram = "cmake";
-    broken = (/*qt5UI &&*/ stdenv.isDarwin);
+    # broken = (qt5UI && stdenv.isDarwin);
   };
 })

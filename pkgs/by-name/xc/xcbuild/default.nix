@@ -74,7 +74,7 @@ in stdenv.mkDerivation {
     description = "Xcode-compatible build tool";
     homepage = "https://github.com/facebook/xcbuild";
     platforms = platforms.unix;
-    maintainers = with maintainers; [ copumpkin matthewbauer ];
+    maintainers = with maintainers; [ ];
     license = with licenses; [ bsd2 bsd3 ];
   };
 }
