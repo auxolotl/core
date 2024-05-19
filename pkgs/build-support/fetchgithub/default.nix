@@ -3,7 +3,7 @@
 lib.makeOverridable (
 { owner, repo, rev
 , name ? null # Override with null to use the default value
-, pname ? "source-${owner}-${repo}"
+, pname ? "source-${githubBase}-${owner}-${repo}"
 , fetchSubmodules ? false, leaveDotGit ? null
 , deepClone ? false, private ? false, forceFetchGit ? false
 , sparseCheckout ? []
