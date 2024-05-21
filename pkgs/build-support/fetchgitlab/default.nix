@@ -2,7 +2,9 @@
 
 lib.makeOverridable (
 # gitlab example
-{ owner, repo, rev, protocol ? "https", domain ? "gitlab.com", name ? "source", group ? null
+{ owner, repo, rev, protocol ? "https", domain ? "gitlab.com", group ? null
+, pname ? lib.concatStringsSep "-" ([ "source" domain ] ++ (lib.optional (group != null) group) ++ [ owner repo ])
+, name ? "${pname}-${rev}"
 , fetchSubmodules ? false, leaveDotGit ? false
 , deepClone ? false, forceFetchGit ? false
 , sparseCheckout ? []
