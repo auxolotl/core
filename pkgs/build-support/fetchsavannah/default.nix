@@ -2,7 +2,7 @@
 
 lib.makeOverridable (
 # cgit example, snapshot support is optional in cgit
-{ repo, rev, name ? "source"
+{ repo, rev, name ? "source-savannah.gnu.org-${repo}-${rev}"
 , ... # For hash agility
 }@args: fetchzip ({
   inherit name;
