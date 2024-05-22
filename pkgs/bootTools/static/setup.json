@@ -1,0 +1,48 @@
+{
+    "osSpecific": {
+        "darwin-x86-64": {
+            "stdFetchurls": {
+                "bootstrapTools": {
+                    "url": "http://tarballs.nixos.org/stdenv/x86_64-apple-darwin/d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f/bootstrap-tools.tar.xz",
+                    "hash": "sha256-3OBigzlbu/Z6g8r7hsOWg95HTv7IJw9Nvbamwvw+88w="
+                },
+                "unpack": {
+                    "url": "http://tarballs.nixos.org/stdenv/x86_64-apple-darwin/d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f/unpack.nar.xz",
+                    "hash": "sha256-93GK8LjjgUBknxsylfGVr0DG4AbWVIQEIWrwxhDW07k=",
+                    "name": "unpack",
+                    "unpack": true
+                },
+            },
+            "stdMetadata": {
+                "nixpkgs revision": "d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f",
+                "hydra build": "https://hydra.nixos.org/job/nixpkgs/trunk/stdenvBootstrapTools.x86_64-apple-darwin.build/latest",
+                "resolved hydra build": "https://hydra.nixos.org/build/255281731",
+                "instantiated derivation": "/nix/store/44wnr0ikrbcxkakfqhhm2cz6gsh6wjni-stdenv-bootstrap-tools.drv",
+                "output directory": "/nix/store/lsl9rl3zj9nr318w471vvmlvxzj21b2k-stdenv-bootstrap-tools",
+                "build time": "Wed, 03 Apr 2024 07:56:15 +0000"
+            }
+        },
+        "darwin-aarch-64": {
+            "stdFetchurls": {
+                "bootstrapTools": {
+                    "url": "http://tarballs.nixos.org/stdenv/aarch64-apple-darwin/d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f/bootstrap-tools.tar.xz",
+                    "hash": "sha256-a37OgMdTHjFyKs4UTxoD7zx6Te3A7zsSjhbFHzbNxQ8="
+                },
+                "unpack": {
+                    "url": "http://tarballs.nixos.org/stdenv/aarch64-apple-darwin/d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f/unpack.nar.xz",
+                    "hash": "sha256-XCVy6TMDJ1DKFnhIT1NHzdQUjY/TPKLV67Zi/ANIpms=",
+                    "name": "unpack",
+                    "unpack": true
+                },
+            },
+            "stdMetadata": {
+                "nixpkgs revision": "d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f",
+                "hydra build": "https://hydra.nixos.org/job/nixpkgs/trunk/stdenvBootstrapTools.aarch64-apple-darwin.build/latest",
+                "resolved hydra build": "https://hydra.nixos.org/build/255282138",
+                "instantiated derivation": "/nix/store/cahnprnkg9z2aij3hj4rkbkc4l8190mf-stdenv-bootstrap-tools.drv",
+                "output directory": "/nix/store/zxxcz7sza5ypy061rsg7cmr7h0a96hbb-stdenv-bootstrap-tools",
+                "build time": "Wed, 03 Apr 2024 07:59:44 +0000"
+            }
+        }
+    }
+}
