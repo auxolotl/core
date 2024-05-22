@@ -9,8 +9,44 @@ let
 
   lib = makeExtensible (self: let
     callLibs = file: import file { lib = self; };
+    loadNode = (root: folder:
+        let
+            static = {
+                setup        = builtins.fromJSON builtins.readFile ( "${root}/${folder}/static/setup.json" );
+                dependencies = builtins.fromJSON builtins.readFile ( "${root}/${folder}/static/dependencies.json" );
+                meta         = builtins.fromJSON builtins.readFile ( "${root}/${folder}/static/meta.json" );
+            };
+            _nodeNames = (builtins.attrNames static.dependencies.nodes);
+        in
+            # basecase
+            if (builtins.length _nodeNames) == 0
+            then
+                {
+                    static = static;
+                    value = import "${root}/${folder}/default.nix";
+                    dependencies = {};
+                }
+            # recursive case
+            else
+                {
+                    static = static;
+                    value = import "${root}/${folder}/default.nix";
+                    dependencies.nodes = (builtins.listToAttrs
+                        (builtins.map
+                            (nodeName: 
+                                { 
+                                    name = nodeName;
+                                    value = (loadNode root nodeName).value;
+                                }
+                            )
+                            _nodeNames
+                        )
+                    );
+                }
+    );
   in {
-
+    builtins = builtins;
+    
     # often used, or depending on very little
     trivial = callLibs ./trivial.nix;
     fixedPoints = callLibs ./fixed-points.nix;
@@ -47,7 +83,6 @@ let
     # misc
     asserts = callLibs ./asserts.nix;
     debug = callLibs ./debug.nix;
-    misc = callLibs ./deprecated/misc.nix;
 
     # domain-specific
     fetchers = callLibs ./fetchers.nix;
@@ -138,7 +173,6 @@ let
       mkMergedOptionModule mkChangedOptionModule
       mkAliasOptionModule mkDerivedConfig doRename
       mkAliasOptionModuleMD;
-    evalOptionValue = lib.warn "External use of `lib.evalOptionValue` is deprecated. If your use case isn't covered by non-deprecated functions, we'd like to know more and perhaps support your use case well, instead of providing access to these low level functions. In this case please open an issue in https://github.com/nixos/nixpkgs/issues/." self.modules.evalOptionValue;
     inherit (self.options) isOption mkEnableOption mkSinkUndeclaredOptions
       mergeDefaultOption mergeOneOption mergeEqualOption mergeUniqueOption
       getValues getFiles
@@ -155,17 +189,16 @@ let
       traceSeq traceSeqN traceValSeq
       traceValSeqFn traceValSeqN traceValSeqNFn traceFnSeqN
       runTests testAllTrue;
-    inherit (self.misc) maybeEnv defaultMergeArg defaultMerge foldArgs
-      maybeAttrNullable maybeAttr ifEnable checkFlag getValue
-      checkReqs uniqList uniqListExt condConcat lazyGenericClosure
-      innerModifySumArgs modifySumArgs innerClosePropagation
-      closePropagation mapAttrsFlatten nvs setAttr setAttrMerge
-      mergeAttrsWithFunc mergeAttrsConcatenateValues
-      mergeAttrsNoOverride mergeAttrByFunc mergeAttrsByFuncDefaults
-      mergeAttrsByFuncDefaultsClean mergeAttrBy
-      fakeHash fakeSha256 fakeSha512
-      nixType imap;
     inherit (self.versions)
       splitVersion;
+    
+    loadStatic = (folder:
+        {
+            setup        = builtins.fromJSON ( builtins.readFile  "${folder}/static/setup.json"         );
+            dependencies = builtins.fromJSON ( builtins.readFile  "${folder}/static/dependencies.json"  );
+            meta         = builtins.fromJSON ( builtins.readFile  "${folder}/static/meta.json"          );
+        }
+    );
+    loadNode = loadNode;
   });
 in lib

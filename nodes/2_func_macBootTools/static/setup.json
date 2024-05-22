@@ -1,4 +1,7 @@
 {
+    "packageInfo": {
+        "name": "bootstrap-tools"
+    },
     "osSpecific": {
         "darwin-x86-64": {
             "stdFetchurls": {
@@ -9,9 +12,8 @@
                 "unpack": {
                     "url": "http://tarballs.nixos.org/stdenv/x86_64-apple-darwin/d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f/unpack.nar.xz",
                     "hash": "sha256-93GK8LjjgUBknxsylfGVr0DG4AbWVIQEIWrwxhDW07k=",
-                    "name": "unpack",
-                    "unpack": true
-                },
+                    "name": "unpack"
+                }
             },
             "stdMetadata": {
                 "nixpkgs revision": "d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f",
@@ -31,9 +33,8 @@
                 "unpack": {
                     "url": "http://tarballs.nixos.org/stdenv/aarch64-apple-darwin/d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f/unpack.nar.xz",
                     "hash": "sha256-XCVy6TMDJ1DKFnhIT1NHzdQUjY/TPKLV67Zi/ANIpms=",
-                    "name": "unpack",
-                    "unpack": true
-                },
+                    "name": "unpack"
+                }
             },
             "stdMetadata": {
                 "nixpkgs revision": "d03a4482228d4d6dbd2d4b425b6dfcd49ebe765f",
