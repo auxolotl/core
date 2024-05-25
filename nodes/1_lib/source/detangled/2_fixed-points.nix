@@ -1,5 +1,7 @@
-{ foldr }:
-  let  
+let # internal lib dependencies
+  foundation = import ./1_foundation.nix;
+in
+  let
     /*
       `fix f` computes the fixed point of the given function `f`. In other words, the return value is `x` in `x = f x`.
   
@@ -274,7 +276,7 @@
       ```
     */
     composeManyExtensions =
-      foldr (x: y: composeExtensions x y) (final: prev: {});
+      foundation.foldr (x: y: composeExtensions x y) (final: prev: {});
   
     /*
       Same as `makeExtensible` but the name of the extending attribute is
