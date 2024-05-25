@@ -194,6 +194,49 @@ let
       if builtins.elem (builtins.getEnv "NIX_ABORT_ON_WARN") ["1" "true" "yes"]
       then msg: builtins.trace "[1;31mwarning: ${msg}[0m" (builtins.abort "NIX_ABORT_ON_WARN=true; warnings are treated as unrecoverable errors.")
       else msg: builtins.trace "[1;31mwarning: ${msg}[0m";
+      
+  /**
+    Like the `assert b; e` expression, but with a custom error message and
+    without the semicolon.
+
+    If true, return the identity function, `r: r`.
+
+    If false, throw the error message.
+
+    Calls can be juxtaposed using function application, as `(r: r) a = a`, so
+    `(r: r) (r: r) a = a`, and so forth.
+
+
+    # Inputs
+
+    `cond`
+
+    : 1\. Function argument
+
+    `msg`
+
+    : 2\. Function argument
+
+    # Type
+
+    ```
+    bool -> string -> a -> a
+    ```
+
+    # Examples
+    :::{.example}
+    ## `lib.trivial.throwIfNot` usage example
+
+    ```nix
+    throwIfNot (lib.isList overlays) "The overlays argument to nixpkgs must be a list."
+    lib.foldr (x: throwIfNot (lib.isFunction x) "All overlays passed to nixpkgs must be functions.") (r: r) overlays
+    pkgs
+    ```
+
+    :::
+  */
+  throwIfNot = cond: msg: if cond then x: x else builtins.throw msg;
+  
 in
   {
     loadStatic      = loadStatic;
@@ -203,4 +246,5 @@ in
     functionArgs    = functionArgs;
     setFunctionArgs = setFunctionArgs;
     warn            = warn;
+    throwIfNot      = throwIfNot;
   }
