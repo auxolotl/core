@@ -236,7 +236,336 @@ let
     :::
   */
   throwIfNot = cond: msg: if cond then x: x else builtins.throw msg;
-  
+
+  /**
+    The identity function
+    For when you need a function that does “nothing”.
+
+
+    # Inputs
+
+    `x`
+
+    : The value to return
+
+    # Type
+
+    ```
+    id :: a -> a
+    ```
+  */
+  id = x: x;
+
+  /**
+    The constant function
+
+    Ignores the second argument. If called with only one argument,
+    constructs a function that always returns a static value.
+
+
+    # Inputs
+
+    `x`
+
+    : Value to return
+
+    `y`
+
+    : Value to ignore
+
+    # Type
+
+    ```
+    const :: a -> b -> a
+    ```
+
+    # Examples
+    :::{.example}
+    ## `lib.trivial.const` usage example
+
+    ```nix
+    let f = const 5; in f 10
+    => 5
+    ```
+
+    :::
+  */
+  const =
+    x:
+    y: x;
+
+  /**
+    Pipes a value through a list of functions, left to right.
+
+    # Inputs
+
+    `value`
+
+    : Value to start piping.
+
+    `fns`
+
+    : List of functions to apply sequentially.
+
+    # Type
+
+    ```
+    pipe :: a -> [<functions>] -> <return type of last function>
+    ```
+
+    # Examples
+    :::{.example}
+    ## `lib.trivial.pipe` usage example
+
+    ```nix
+    pipe 2 [
+        (x: x + 2)  # 2 + 2 = 4
+        (x: x * 2)  # 4 * 2 = 8
+      ]
+    => 8
+
+    # ideal to do text transformations
+    pipe [ "a/b" "a/c" ] [
+
+      # create the cp command
+      (map (file: ''cp "${src}/${file}" $out\n''))
+
+      # concatenate all commands into one string
+      lib.concatStrings
+
+      # make that string into a nix derivation
+      (pkgs.runCommand "copy-to-out" {})
+
+    ]
+    => <drv which copies all files to $out>
+
+    The output type of each function has to be the input type
+    of the next function, and the last function returns the
+    final value.
+    ```
+
+    :::
+  */
+  pipe = builtins.foldl' (x: f: f x);
+
+  # note please don’t add a function like `compose = flip pipe`.
+  # This would confuse users, because the order of the functions
+  # in the list is not clear. With pipe, it’s obvious that it
+  # goes first-to-last. With `compose`, not so much.
+
+  ## Named versions corresponding to some builtin operators.
+
+  /**
+    Concatenate two lists
+
+
+    # Inputs
+
+    `x`
+
+    : 1\. Function argument
+
+    `y`
+
+    : 2\. Function argument
+
+    # Type
+
+    ```
+    concat :: [a] -> [a] -> [a]
+    ```
+
+    # Examples
+    :::{.example}
+    ## `lib.trivial.concat` usage example
+
+    ```nix
+    concat [ 1 2 ] [ 3 4 ]
+    => [ 1 2 3 4 ]
+    ```
+
+    :::
+  */
+  concat = x: y: x ++ y;
+
+  /**
+    boolean “or”
+
+
+    # Inputs
+
+    `x`
+
+    : 1\. Function argument
+
+    `y`
+
+    : 2\. Function argument
+  */
+  or = x: y: x || y;
+
+  /**
+    boolean “and”
+
+
+    # Inputs
+
+    `x`
+
+    : 1\. Function argument
+
+    `y`
+
+    : 2\. Function argument
+  */
+  and = x: y: x && y;
+
+  /**
+    boolean “exclusive or”
+
+
+    # Inputs
+
+    `x`
+
+    : 1\. Function argument
+
+    `y`
+
+    : 2\. Function argument
+  */
+  # We explicitly invert the arguments purely as a type assertion.
+  # This is invariant under XOR, so it does not affect the result.
+  xor = x: y: (!x) != (!y);
+
+  /**
+    bitwise “not”
+  */
+  bitNot = builtins.sub (-1);
+
+  /**
+    Convert a boolean to a string.
+
+    This function uses the strings "true" and "false" to represent
+    boolean values. Calling `toString` on a bool instead returns "1"
+    and "" (sic!).
+
+
+    # Inputs
+
+    `b`
+
+    : 1\. Function argument
+
+    # Type
+
+    ```
+    boolToString :: bool -> string
+    ```
+  */
+  boolToString = b: if b then "true" else "false";
+
+  /**
+    Merge two attribute sets shallowly, right side trumps left
+
+    mergeAttrs :: attrs -> attrs -> attrs
+
+
+    # Inputs
+
+    `x`
+
+    : Left attribute set
+
+    `y`
+
+    : Right attribute set (higher precedence for equal keys)
+
+
+    # Examples
+    :::{.example}
+    ## `lib.trivial.mergeAttrs` usage example
+
+    ```nix
+    mergeAttrs { a = 1; b = 2; } { b = 3; c = 4; }
+    => { a = 1; b = 3; c = 4; }
+    ```
+
+    :::
+  */
+  mergeAttrs =
+    x:
+    y: x // y;
+
+  /**
+    Flip the order of the arguments of a binary function.
+
+
+    # Inputs
+
+    `f`
+
+    : 1\. Function argument
+
+    `a`
+
+    : 2\. Function argument
+
+    `b`
+
+    : 3\. Function argument
+
+    # Type
+
+    ```
+    flip :: (a -> b -> c) -> (b -> a -> c)
+    ```
+
+    # Examples
+    :::{.example}
+    ## `lib.trivial.flip` usage example
+
+    ```nix
+    flip concat [1] [2]
+    => [ 2 1 ]
+    ```
+
+    :::
+  */
+  flip = f: a: b: f b a;
+
+  /**
+    Apply function if the supplied argument is non-null.
+
+
+    # Inputs
+
+    `f`
+
+    : Function to call
+
+    `a`
+
+    : Argument to check for null before passing it to `f`
+
+
+    # Examples
+    :::{.example}
+    ## `lib.trivial.mapNullable` usage example
+
+    ```nix
+    mapNullable (x: x+1) null
+    => null
+    mapNullable (x: x+1) 22
+    => 23
+    ```
+
+    :::
+  */
+  mapNullable =
+    f:
+    a: if a == null then a else f a;
+
 in
   {
     loadStatic      = loadStatic;
@@ -247,4 +576,16 @@ in
     setFunctionArgs = setFunctionArgs;
     warn            = warn;
     throwIfNot      = throwIfNot;
+    id              = id;
+    const           = const;
+    pipe            = pipe;
+    concat          = concat;
+    or              = or;
+    and             = and;
+    xor             = xor;
+    bitNot          = bitNot;
+    boolToString    = boolToString;
+    mergeAttrs      = mergeAttrs;
+    flip            = flip;
+    mapNullable     = mapNullable;
   }
