@@ -78,6 +78,25 @@ let
     (f ? __functor && isFunction (f.__functor f));
     
   /**
+    Extract the expected function arguments from a function.
+    This works both with nix-native { a, b ? foo, ... }: style
+    functions and functions with args set with 'setFunctionArgs'. It
+    has the same return type and semantics as builtins.functionArgs.
+    setFunctionArgs : (a → b) → Map String Bool.
+
+
+    # Inputs
+
+    `f`
+
+    : 1\. Function argument
+  */
+  functionArgs = f:
+    if f ? __functor
+    then f.__functionArgs or (functionArgs (f.__functor f))
+    else builtins.functionArgs f;
+    
+  /**
     Print a warning before returning the second argument. This function behaves
     like `builtins.trace`, but requires a string message and formats it as a
     warning, including the `warning: ` prefix.
@@ -107,8 +126,9 @@ let
       else msg: builtins.trace "[1;31mwarning: ${msg}[0m";
 in
   {
-    loadStatic = loadStatic;
-    foldr      = foldr;
-    isFunction = isFunction;
-    warn       = warn;
+    loadStatic   = loadStatic;
+    foldr        = foldr;
+    isFunction   = isFunction;
+    functionArgs = functionArgs;
+    warn         = warn;
   }
