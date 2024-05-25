@@ -97,6 +97,34 @@ let
     else builtins.functionArgs f;
     
   /**
+    Add metadata about expected function arguments to a function.
+    The metadata should match the format given by
+    builtins.functionArgs, i.e. a set from expected argument to a bool
+    representing whether that argument has a default or not.
+    setFunctionArgs : (a → b) → Map String Bool → (a → b)
+
+    This function is necessary because you can't dynamically create a
+    function of the { a, b ? foo, ... }: format, but some facilities
+    like callPackage expect to be able to query expected arguments.
+
+
+    # Inputs
+
+    `f`
+
+    : 1\. Function argument
+
+    `args`
+
+    : 2\. Function argument
+  */
+  setFunctionArgs = f: args:
+    {
+      __functor = self: f;
+      __functionArgs = args;
+    };
+  
+  /**
     Print a warning before returning the second argument. This function behaves
     like `builtins.trace`, but requires a string message and formats it as a
     warning, including the `warning: ` prefix.
@@ -126,9 +154,10 @@ let
       else msg: builtins.trace "[1;31mwarning: ${msg}[0m";
 in
   {
-    loadStatic   = loadStatic;
-    foldr        = foldr;
-    isFunction   = isFunction;
-    functionArgs = functionArgs;
-    warn         = warn;
+    loadStatic      = loadStatic;
+    foldr           = foldr;
+    isFunction      = isFunction;
+    functionArgs    = functionArgs;
+    setFunctionArgs = setFunctionArgs;
+    warn            = warn;
   }
