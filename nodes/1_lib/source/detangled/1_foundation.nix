@@ -3,10 +3,10 @@
 # 
 let
   loadStatic = (folder:
-      {
-      setup        = builtins.fromTOML ( builtins.readFile  "${folder}/static/setup.toml"         );
-      meta         = builtins.fromTOML ( builtins.readFile  "${folder}/static/meta.toml"          );
-      }
+    {
+      setup        = builtins.fromTOML ( builtins.readFile  "${folder}/static/setup.toml" );
+      meta         = builtins.fromTOML ( builtins.readFile  "${folder}/static/meta.toml"  );
+    }
   );
   
   /**
