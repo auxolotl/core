@@ -1,4 +1,22 @@
+# Returns the current nixpkgs release code name.
+#   On each release the first letter is bumped and a new animal is chosen
+#   starting with that new letter.
+codeName = "Uakari"
 release = "24.05"
+versionSuffix = "pre-git"
+
+# The latest release that is supported, at the time of release branch-off,
+# if applicable.
+# 
+# Ideally, out-of-tree modules should be able to evaluate cleanly with all
+# supported Nixpkgs versions (master, release and old release until EOL).
+# So if possible, deprecation warnings should take effect only when all
+# out-of-tree expressions/libs/modules can upgrade to the new way without
+# losing support for supported Nixpkgs versions.
+# 
+# This release number allows deprecation warnings to be implemented such that
+# they take effect as soon as the oldest release reaches end of life.
+oldestSupportedRelease = 2311
 
 # 
 # sourceTypes
