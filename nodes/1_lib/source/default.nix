@@ -32,7 +32,7 @@ let
     customisation = callLibs ./customisation.nix;
     derivations = callLibs ./derivations.nix;
     maintainers = static.setup.maintainers;
-    teams = callLibs ../maintainers/team-list.nix;
+    teams = static.setup.teams;
     meta = callLibs ./meta.nix;
     versions = callLibs ./versions.nix;
 

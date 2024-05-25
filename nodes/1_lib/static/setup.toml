@@ -25079,3 +25079,2317 @@ email = "me@zzzsy.top"
 github = "zzzsyyy"
 githubId = 59_917_878
 name = "Mathias Zhang"
+
+# 
+# teams
+# 
+
+[teams.acme]
+enableFeatureFreezePing = true
+scope = "Maintain ACME-related packages and modules."
+shortName = "ACME"
+
+  [[teams.acme.members]]
+  email = "aaron@fosslib.net"
+  github = "aanderse"
+  githubId = 7_755_101
+  matrix = "@aanderse:nixos.dev"
+  name = "Aaron Andersen"
+
+  [[teams.acme.members]]
+  email = "arian.vanputten@gmail.com"
+  github = "arianvp"
+  githubId = 628_387
+  name = "Arian van Putten"
+
+  [[teams.acme.members]]
+  email = "nixpkgs@emily.moe"
+  github = "emilazy"
+  githubId = 18_535_642
+  name = "Emily"
+
+  [[teams.acme.members]]
+  email = "flokli@flokli.de"
+  github = "flokli"
+  githubId = 183_879
+  name = "Florian Klink"
+
+  [[teams.acme.members]]
+  email = "lucas+nix@m1cr0man.com"
+  github = "m1cr0man"
+  githubId = 3_044_438
+  name = "Lucas Savva"
+
+[teams.bazel]
+enableFeatureFreezePing = true
+scope = "Bazel build tool & related tools https://bazel.build/"
+shortName = "Bazel"
+
+  [[teams.bazel.members]]
+  email = "mboes@tweag.net"
+  github = "mboes"
+  githubId = 51_356
+  name = "Mathieu Boespflug"
+
+  [[teams.bazel.members]]
+  email = "uri@canva.com"
+  github = "uri-canva"
+  githubId = 33_242_106
+  name = "Uri Baghin"
+
+  [[teams.bazel.members]]
+  email = "claudio.bley@gmail.com"
+  github = "avdv"
+  githubId = 3_471_749
+  name = "Claudio Bley"
+
+  [[teams.bazel.members]]
+  email = "ole6edev@gmail.com"
+  github = "olebedev"
+  githubId = 848_535
+  name = "Oleg Lebedev"
+
+  [[teams.bazel.members]]
+  email = "groodt@gmail.com"
+  github = "groodt"
+  githubId = 343_415
+  name = "Greg Roodt"
+
+  [[teams.bazel.members]]
+  email = "andreash87@gmx.ch"
+  github = "aherrmann"
+  githubId = 732_652
+  name = "Andreas Herrmann"
+
+  [[teams.bazel.members]]
+  email = "yves.stan.lecornec@tweag.io"
+  github = "ylecornec"
+  githubId = 5_978_566
+  name = "Yves-Stan Le Cornec"
+
+[teams.beam]
+enableFeatureFreezePing = true
+githubTeams = [ "beam" ]
+scope = "Maintain BEAM-related packages and modules."
+shortName = "BEAM"
+
+  [[teams.beam.members]]
+  email = "me@ankhers.dev"
+  github = "ankhers"
+  githubId = 750_786
+  name = "Justin Wood"
+
+  [[teams.beam.members]]
+  email = "brightone@protonmail.com"
+  github = "Br1ght0ne"
+  githubId = 12_615_679
+  name = "Oleksii Filonenko"
+
+    [[teams.beam.members.keys]]
+    fingerprint = "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8"
+
+  [[teams.beam.members]]
+  github = "DianaOlympos"
+  githubId = 15_774_340
+  name = "Thomas Depierre"
+
+  [[teams.beam.members]]
+  email = "gleber.p@gmail.com"
+  github = "gleber"
+  githubId = 33_185
+  name = "Gleb Peregud"
+
+  [[teams.beam.members]]
+  email = "raphael@megzari.com"
+  github = "happysalada"
+  githubId = 5_317_234
+  matrix = "@happysalada:matrix.org"
+  name = "Raphael Megzari"
+
+  [[teams.beam.members]]
+  email = "minijackson@riseup.net"
+  github = "minijackson"
+  githubId = 1_200_507
+  name = "Rémi Nicole"
+
+    [[teams.beam.members.keys]]
+    fingerprint = "3196 83D3 9A1B 4DE1 3DC2  51FD FEA8 88C9 F5D6 4F62"
+
+  [[teams.beam.members]]
+  email = "eric@ericb.me"
+  github = "yurrriq"
+  githubId = 1_866_448
+  name = "Eric Bailey"
+
+[teams.bitnomial]
+scope = "Group registration for packages maintained by Bitnomial."
+shortName = "Bitnomial employees"
+
+  [[teams.bitnomial.members]]
+  email = "cdep.illabout@gmail.com"
+  github = "cdepillabout"
+  githubId = 64_804
+  matrix = "@cdepillabout:matrix.org"
+  name = "Dennis Gosnell"
+
+  [[teams.bitnomial.members]]
+  email = "wraithm@gmail.com"
+  github = "wraithm"
+  githubId = 1_512_913
+  name = "Matthew Wraith"
+
+[teams.blockchains]
+scope = "Maintain Blockchain packages and modules."
+shortName = "Blockchains"
+
+  [[teams.blockchains.members]]
+  email = "marek.mahut@gmail.com"
+  github = "mmahut"
+  githubId = 104_795
+  name = "Marek Mahut"
+
+  [[teams.blockchains.members]]
+  email = "r@raghavsood.com"
+  github = "RaghavSood"
+  githubId = 903_072
+  name = "Raghav Sood"
+
+[teams.budgie]
+scope = "Maintain Budgie desktop environment"
+shortName = "Budgie"
+
+  [[teams.budgie.members]]
+  email = "rjl931189261@126.com"
+  github = "bobby285271"
+  githubId = 20_080_233
+  matrix = "@bobby285271:matrix.org"
+  name = "Bobby Rong"
+
+[teams.buildbot]
+scope = "Maintain Buildbot CI framework"
+shortName = "Buildbot"
+
+  [[teams.buildbot.members]]
+  email = "benwolsieffer@gmail.com"
+  github = "lopsided98"
+  githubId = 5_624_721
+  name = "Ben Wolsieffer"
+
+  [[teams.buildbot.members]]
+  email = "joerg@thalheim.io"
+  github = "Mic92"
+  githubId = 96_200
+  matrix = "@mic92:nixos.dev"
+  name = "Jörg Thalheim"
+
+    [[teams.buildbot.members.keys]]
+    fingerprint = "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92"
+
+  [[teams.buildbot.members]]
+  github = "zowoq"
+  githubId = 59_103_226
+  name = "zowoq"
+
+[teams.c]
+enableFeatureFreezePing = true
+scope = "Maintain C libraries and tooling."
+shortName = "C"
+
+  [[teams.c.members]]
+  email = "mjbauer95@gmail.com"
+  github = "matthewbauer"
+  githubId = 19_036
+  name = "Matthew Bauer"
+
+  [[teams.c.members]]
+  email = "joerg@thalheim.io"
+  github = "Mic92"
+  githubId = 96_200
+  matrix = "@mic92:nixos.dev"
+  name = "Jörg Thalheim"
+
+    [[teams.c.members.keys]]
+    fingerprint = "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92"
+
+[teams.c3d2]
+scope = "Maintain packages used in the C3D2 hackspace"
+shortName = "c3d2"
+
+  [[teams.c3d2.members]]
+  email = "astro@spaceboyz.net"
+  github = "astro"
+  githubId = 12_923
+  name = "Astro"
+
+  [[teams.c3d2.members]]
+  email = "sandro.jaeckel@gmail.com"
+  github = "SuperSandro2000"
+  githubId = 7_258_858
+  matrix = "@sandro:supersandro.de"
+  name = "Sandro Jäckel"
+
+  [[teams.c3d2.members]]
+  email = "revol-xut@protonmail.com"
+  github = "tanneberger"
+  githubId = 32_239_737
+  name = "Tassilo Tanneberger"
+
+    [[teams.c3d2.members.keys]]
+    fingerprint = "91EB E870 1639 1323 642A  6803 B966 009D 57E6 9CC6"
+
+  [[teams.c3d2.members]]
+  email = "blame@oxapentane.com"
+  github = "oxapentane"
+  githubId = 1_297_357
+  name = "Grigory Shipunov"
+
+    [[teams.c3d2.members.keys]]
+    fingerprint = "DD09 98E6 CDF2 9453 7FC6  04F9 91FA 5E5B F9AA 901C"
+
+[teams.cinnamon]
+enableFeatureFreezePing = true
+scope = "Maintain Cinnamon desktop environment and applications made by the Linux Mint team."
+shortName = "Cinnamon"
+
+  [[teams.cinnamon.members]]
+  email = "rjl931189261@126.com"
+  github = "bobby285271"
+  githubId = 20_080_233
+  matrix = "@bobby285271:matrix.org"
+  name = "Bobby Rong"
+
+  [[teams.cinnamon.members]]
+  email = "mkg20001+nix@gmail.com"
+  github = "mkg20001"
+  githubId = 7_735_145
+  matrix = "@mkg20001:matrix.org"
+  name = "Maciej Krüger"
+
+    [[teams.cinnamon.members.keys]]
+    fingerprint = "E90C BA34 55B3 6236 740C  038F 0D94 8CE1 9CF4 9C5F"
+
+[teams.cloudposse]
+enableFeatureFreezePing = true
+scope = "Maintain atmos and applications made by the Cloud Posse team."
+shortName = "CloudPosse"
+
+  [[teams.cloudposse.members]]
+  email = "jeremy.white@cloudposse.com"
+  github = "dudymas"
+  githubId = 928_448
+  name = "Jeremy White"
+
+[teams.coq]
+enableFeatureFreezePing = true
+scope = "Maintain the Coq theorem prover and related packages."
+shortName = "Coq"
+
+  [[teams.coq.members]]
+  email = "cyril.cohen@inria.fr"
+  github = "CohenCyril"
+  githubId = 298_705
+  name = "Cyril Cohen"
+
+  [[teams.coq.members]]
+  email = "theo.zimmermann@telecom-paris.fr"
+  github = "Zimmi48"
+  githubId = 1_108_325
+  name = "Théo Zimmermann"
+
+  [[teams.coq.members]]
+  email = "bensiraphob@gmail.com"
+  github = "siraben"
+  githubId = 8_219_659
+  matrix = "@siraben:matrix.org"
+  name = "Siraphob Phipathananunth"
+
+  [[teams.coq.members]]
+  email = "Vincent.Laporte@gmail.com"
+  github = "vbgl"
+  githubId = 2_612_464
+  name = "Vincent Laporte"
+
+  [[teams.coq.members]]
+  email = "alizter@gmail.com"
+  github = "Alizter"
+  githubId = 8_614_547
+  name = "Ali Caglayan"
+
+[teams.cosmopolitan]
+scope = "Maintain the Cosmopolitan LibC and related programs."
+shortName = "Cosmopolitan"
+
+  [[teams.cosmopolitan.members]]
+  email = "julie+nixpkgs@bbjubjub.fr"
+  github = "bbjubjub2494"
+  githubId = 15_657_735
+  name = "Julie B."
+
+  [[teams.cosmopolitan.members]]
+  email = "tomberek@gmail.com"
+  github = "tomberek"
+  githubId = 178_444
+  matrix = "@tomberek:matrix.org"
+  name = "Thomas Bereknyei"
+
+[teams.cuda]
+githubTeams = [ "cuda-maintainers" ]
+scope = "Maintain CUDA-enabled packages"
+shortName = "Cuda"
+
+  [[teams.cuda.members]]
+  email = "connor.baker@tweag.io"
+  github = "connorbaker"
+  githubId = 3_880_346
+  matrix = "@connorbaker:matrix.org"
+  name = "Connor Baker"
+
+  [[teams.cuda.members]]
+  email = "skainsworth@gmail.com"
+  github = "samuela"
+  githubId = 226_872
+  name = "Samuel Ainsworth"
+
+  [[teams.cuda.members]]
+  email = "sergei.kozlukov@aalto.fi"
+  github = "SomeoneSerge"
+  githubId = 9_720_532
+  matrix = "@ss:someonex.net"
+  name = "Sergei K"
+
+[teams.darwin]
+enableFeatureFreezePing = true
+githubTeams = [ "darwin-maintainers" ]
+scope = "Maintain Darwin compatibility of packages and Darwin-only packages."
+shortName = "Darwin"
+
+  [[teams.darwin.members]]
+  email = "nixpkgs@toonn.io"
+  github = "toonn"
+  githubId = 1_486_805
+  matrix = "@toonn:matrix.org"
+  name = "Toon Nolten"
+
+[teams.deepin]
+enableFeatureFreezePing = true
+scope = "Maintain deepin desktop environment and related packages."
+shortName = "DDE"
+
+  [[teams.deepin.members]]
+  email = "lhongxu@outlook.com"
+  github = "wineee"
+  githubId = 22_803_888
+  name = "Lu Hongxu"
+
+[teams.deshaw]
+scope = "Group registration for D. E. Shaw employees who collectively maintain packages."
+shortName = "D. E. Shaw employees"
+
+  [[teams.deshaw.members]]
+  email = "nixpkgs-commits@deshaw.com"
+  github = "de11n"
+  githubId = 130_508_846
+  name = "Elliot Cameron"
+
+  [[teams.deshaw.members]]
+  email = "nixpkgs-commits@deshaw.com"
+  github = "invokes-su"
+  githubId = 88_038_050
+  name = "Souvik Sen"
+
+[teams.determinatesystems]
+scope = "Group registration for packages maintained by Determinate Systems."
+shortName = "Determinate Systems employees"
+
+  [[teams.determinatesystems.members]]
+  email = "cole.e.helbling@outlook.com"
+  github = "cole-h"
+  githubId = 28_582_702
+  matrix = "@cole-h:matrix.org"
+  name = "Cole Helbling"
+
+    [[teams.determinatesystems.members.keys]]
+    fingerprint = "68B8 0D57 B2E5 4AC3 EC1F  49B0 B37E 0F23 7101 6A4C"
+
+  [[teams.determinatesystems.members]]
+  email = "graham@grahamc.com"
+  github = "grahamc"
+  githubId = 76_716
+  name = "Graham Christensen"
+
+  [[teams.determinatesystems.members]]
+  email = "operator+nix@hoverbear.org"
+  github = "Hoverbear"
+  githubId = 130_903
+  matrix = "@hoverbear:matrix.org"
+  name = "Ana Hobden"
+
+[teams.dhall]
+enableFeatureFreezePing = true
+scope = "Maintain Dhall and related packages."
+shortName = "Dhall"
+
+  [[teams.dhall.members]]
+  email = "GenuineGabriella@gmail.com"
+  github = "Gabriella439"
+  githubId = 1_313_787
+  name = "Gabriella Gonzalez"
+
+  [[teams.dhall.members]]
+  email = "ehmry@posteo.net"
+  github = "ehmry"
+  githubId = 537_775
+  name = "Emery Hemingway"
+
+[teams.docker]
+scope = "Maintain Docker and related tools."
+shortName = "DockerTools"
+
+  [[teams.docker.members]]
+  email = "nixpkgs@roberthensing.nl"
+  github = "roberth"
+  githubId = 496_447
+  matrix = "@roberthensing:matrix.org"
+  name = "Robert Hensing"
+
+  [[teams.docker.members]]
+  email = "me@utdemir.com"
+  github = "utdemir"
+  githubId = 928_084
+  name = "Utku Demir"
+
+[teams.docs]
+enableFeatureFreezePing = true
+githubTeams = [ "documentation-team" ]
+members = [ ]
+scope = "Maintain nixpkgs/NixOS documentation and tools for building it."
+shortName = "Docs"
+
+[teams.dotnet]
+scope = "Maintainers of the .NET build tools and packages"
+shortName = "dotnet"
+
+  [[teams.dotnet.members]]
+  email = "ivar.scholten@protonmail.com"
+  github = "IvarWithoutBones"
+  githubId = 41_924_494
+  name = "Ivar"
+
+  [[teams.dotnet.members]]
+  email = "marek@mdarocha.pl"
+  github = "mdarocha"
+  githubId = 11_572_618
+  name = "Marek Darocha"
+
+  [[teams.dotnet.members]]
+  email = "corngood@gmail.com"
+  github = "corngood"
+  githubId = 3_077_118
+  name = "David McFarland"
+
+  [[teams.dotnet.members]]
+  email = "gggkiller2@gmail.com"
+  github = "GGG-KILLER"
+  githubId = 5_892_127
+  name = "GGG"
+
+  [[teams.dotnet.members]]
+  email = "raphael-git@tapesoftware.net"
+  github = "raphaelr"
+  githubId = 121_178
+  matrix = "@raphi:tapesoftware.net"
+  name = "Raphael Robatsch"
+
+  [[teams.dotnet.members]]
+  email = "jamie.magee@gmail.com"
+  github = "JamieMagee"
+  githubId = 1_358_764
+  name = "Jamie Magee"
+
+  [[teams.dotnet.members]]
+  email = "pavel@anpin.fyi"
+  github = "anpin"
+  githubId = 6_060_545
+  matrix = "@anpin:matrix.org"
+  name = "Pavel Anpin"
+
+    [[teams.dotnet.members.keys]]
+    fingerprint = "06E8 4FF6 0CCF 7AFD 5101  76C9 0FBC D3EE 6310 7407"
+
+    [[teams.dotnet.members.keys]]
+    fingerprint = "DADF F3EA 06DC 8C1B 100A  24DB 312E 8F17 91C5 DA8C"
+
+[teams.emacs]
+scope = "Maintain the Emacs editor and packages."
+shortName = "Emacs"
+
+  [[teams.emacs.members]]
+  email = "adisbladis@gmail.com"
+  github = "adisbladis"
+  githubId = 63_286
+  matrix = "@adis:blad.is"
+  name = "Adam Hose"
+
+[teams.enlightenment]
+enableFeatureFreezePing = true
+githubTeams = [ "enlightenment" ]
+scope = "Maintain Enlightenment desktop environment and related packages."
+shortName = "Enlightenment"
+
+  [[teams.enlightenment.members]]
+  email = "malaquias@gmail.com"
+  github = "romildo"
+  githubId = 1_217_934
+  name = "José Romildo Malaquias"
+
+[teams.feature-freeze-everyone-else]
+enableFeatureFreezePing = true
+githubTeams = [ "nixpkgs-committers", "release-engineers" ]
+members = [ ]
+scope = "Dummy team for the #everyone else' section during feture freezes, not to be used as package maintainers!"
+shortName = "Everyone else"
+
+[teams.flutter]
+enableFeatureFreezePing = false
+githubTeams = [ "flutter" ]
+scope = "Maintain Flutter and Dart-related packages and build tools"
+shortName = "flutter"
+
+  [[teams.flutter.members]]
+  email = "mkg20001+nix@gmail.com"
+  github = "mkg20001"
+  githubId = 7_735_145
+  matrix = "@mkg20001:matrix.org"
+  name = "Maciej Krüger"
+
+    [[teams.flutter.members.keys]]
+    fingerprint = "E90C BA34 55B3 6236 740C  038F 0D94 8CE1 9CF4 9C5F"
+
+  [[teams.flutter.members]]
+  email = "tristan.ross@midstall.com"
+  github = "RossComputerGuy"
+  githubId = 19_699_320
+  name = "Tristan Ross"
+
+  [[teams.flutter.members]]
+  email = "flafyarazi@gmail.com"
+  github = "FlafyDev"
+  githubId = 44_374_434
+  name = "Flafy Arazi"
+
+  [[teams.flutter.members]]
+  email = "hacker1024@users.sourceforge.net"
+  github = "hacker1024"
+  githubId = 20_849_728
+  name = "hacker1024"
+
+[teams.flyingcircus]
+scope = "Team for Flying Circus employees who collectively maintain packages."
+shortName = "Flying Circus employees"
+
+  [[teams.flyingcircus.members]]
+  email = "ct@flyingcircus.io"
+  github = "ctheune"
+  githubId = 1_220_572
+  name = "Christian Theune"
+
+  [[teams.flyingcircus.members]]
+  email = "dpausp@posteo.de"
+  github = "dpausp"
+  githubId = 1_965_950
+  name = "Tobias Stenzel"
+
+    [[teams.flyingcircus.members.keys]]
+    fingerprint = "4749 0887 CF3B 85A1 6355  C671 78C7 DD40 DF23 FB16"
+
+  [[teams.flyingcircus.members]]
+  email = "frank@frank.uvena.de"
+  github = "frlan"
+  githubId = 1_010_248
+  name = "Frank Lanitz"
+
+  [[teams.flyingcircus.members]]
+  email = "nix@leona.is"
+  github = "leona-ya"
+  githubId = 11_006_031
+  name = "Leona Maroni"
+
+  [[teams.flyingcircus.members]]
+  email = "os@flyingcircus.io"
+  github = "osnyx"
+  githubId = 104_593_071
+  name = "Oliver Schmidt"
+
+  [[teams.flyingcircus.members]]
+  email = "maximilian@mbosch.me"
+  github = "Ma27"
+  githubId = 6_025_220
+  matrix = "@ma27:nicht-so.sexy"
+  name = "Maximilian Bosch"
+
+[teams.formatter]
+scope = "Tentative Nix formatter team to be established in https://github.com/NixOS/rfcs/pull/166"
+shortName = "Nix formatter team"
+
+  [[teams.formatter.members]]
+  email = "nix@piegames.de"
+  github = "piegamesde"
+  githubId = 14_054_505
+  matrix = "@piegames:matrix.org"
+  name = "piegames"
+
+  [[teams.formatter.members]]
+  email = "contact@infinisil.com"
+  github = "infinisil"
+  githubId = 20_525_370
+  matrix = "@infinisil:matrix.org"
+  name = "Silvan Mosberger"
+
+    [[teams.formatter.members.keys]]
+    fingerprint = "6C2B 55D4 4E04 8266 6B7D  DA1A 422E 9EDA E015 7170"
+
+  [[teams.formatter.members]]
+  email = "janne@hess.ooo"
+  github = "dasJ"
+  githubId = 4_971_975
+  matrix = "@janne.hess:helsinki-systems.de"
+  name = "Janne Heß"
+
+  [[teams.formatter.members]]
+  email = "tomberek@gmail.com"
+  github = "tomberek"
+  githubId = 178_444
+  matrix = "@tomberek:matrix.org"
+  name = "Thomas Bereknyei"
+
+  [[teams.formatter.members]]
+  email = "mail-maintainer@0x4A6F.dev"
+  github = "0x4A6F"
+  githubId = 9_675_338
+  matrix = "@0x4a6f:matrix.org"
+  name = "Joachim Ernst"
+
+    [[teams.formatter.members.keys]]
+    fingerprint = "F466 A548 AD3F C1F1 8C88  4576 8702 7528 B006 D66D"
+
+[teams.freedesktop]
+scope = "Maintain Freedesktop.org packages for graphical desktop."
+shortName = "freedesktop.org packaging"
+
+  [[teams.freedesktop.members]]
+  email = "jtojnar@gmail.com"
+  github = "jtojnar"
+  githubId = 705_123
+  matrix = "@jtojnar:matrix.org"
+  name = "Jan Tojnar"
+
+[teams.fslabs]
+scope = "Group registration for packages maintained by Foresight Spatial Labs."
+shortName = "Foresight Spatial Labs employees"
+
+  [[teams.fslabs.members]]
+  email = "git@greaka.de"
+  github = "greaka"
+  githubId = 2_805_834
+  name = "Greaka"
+
+    [[teams.fslabs.members.keys]]
+    fingerprint = "6275 FB5C C9AC 9D85 FF9E  44C5 EE92 A5CD C367 118C"
+
+  [[teams.fslabs.members]]
+  email = "lois@postu.la"
+  github = "loispostula"
+  githubId = 1_423_612
+  name = "Loïs Postula"
+
+    [[teams.fslabs.members.keys]]
+    fingerprint = "0B4A E7C7 D3B7 53F5 3B3D  774C 3819 3C6A 09C3 9ED1"
+
+[teams.gcc]
+scope = "Maintain GCC (GNU Compiler Collection) compilers"
+shortName = "GCC"
+
+  [[teams.gcc.members]]
+  email = "nix@hilhorst.be"
+  github = "Synthetica9"
+  githubId = 7_075_751
+  name = "Patrick Hilhorst"
+
+  [[teams.gcc.members]]
+  email = "v@cunat.cz"
+  github = "vcunat"
+  githubId = 1_785_925
+  matrix = "@vcunat:matrix.org"
+  name = "Vladimír Čunát"
+
+    [[teams.gcc.members.keys]]
+    fingerprint = "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA"
+
+  [[teams.gcc.members]]
+  email = "John.Ericson@Obsidian.Systems"
+  github = "Ericson2314"
+  githubId = 1_055_245
+  matrix = "@ericson2314:matrix.org"
+  name = "John Ericson"
+
+[teams.geospatial]
+enableFeatureFreezePing = true
+githubTeams = [ "geospatial" ]
+scope = "Maintain geospatial packages."
+shortName = "Geospatial"
+
+  [[teams.geospatial.members]]
+  email = "ivan.mincik@gmail.com"
+  github = "imincik"
+  githubId = 476_346
+  matrix = "@imincik:matrix.org"
+  name = "Ivan Mincik"
+
+  [[teams.geospatial.members]]
+  email = "victor@engmark.name"
+  github = "l0b0"
+  githubId = 168_301
+  name = "Victor Engmark"
+
+  [[teams.geospatial.members]]
+  email = "mail@nh2.me"
+  github = "nh2"
+  githubId = 399_535
+  matrix = "@nh2:matrix.org"
+  name = "Niklas Hambüchen"
+
+  [[teams.geospatial.members]]
+  email = "nikolasovaskainen@gmail.com"
+  github = "nialov"
+  githubId = 47_318_483
+  name = "Nikolas Ovaskainen"
+
+  [[teams.geospatial.members]]
+  email = "sikmir@disroot.org"
+  github = "sikmir"
+  githubId = 688_044
+  matrix = "@sikmir:matrix.org"
+  name = "Nikolay Korotkiy"
+
+    [[teams.geospatial.members.keys]]
+    fingerprint = "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5"
+
+  [[teams.geospatial.members]]
+  github = "willcohen"
+  githubId = 5_185_341
+  name = "Will Cohen"
+
+[teams.gitlab]
+scope = "Maintain gitlab packages."
+shortName = "gitlab"
+
+  [[teams.gitlab.members]]
+  email = "mail@glob.in"
+  github = "globin"
+  githubId = 1_447_245
+  name = "Robin Gloster"
+
+  [[teams.gitlab.members]]
+  email = "kristoffer@microdisko.no"
+  github = "krav"
+  githubId = 4_032
+  name = "Kristoffer Thømt Ravneberg"
+
+  [[teams.gitlab.members]]
+  email = "kim.lindberger@gmail.com"
+  github = "talyz"
+  githubId = 63_433
+  matrix = "@talyz:matrix.org"
+  name = "Kim Lindberger"
+
+  [[teams.gitlab.members]]
+  email = "github@uwu.is"
+  github = "yayayayaka"
+  githubId = 73_759_599
+  matrix = "@yaya:uwu.is"
+  name = "Yaya"
+
+[teams.gnome]
+enableFeatureFreezePing = true
+githubTeams = [ "gnome" ]
+scope = "Maintain GNOME desktop environment and platform."
+shortName = "GNOME"
+
+  [[teams.gnome.members]]
+  email = "rjl931189261@126.com"
+  github = "bobby285271"
+  githubId = 20_080_233
+  matrix = "@bobby285271:matrix.org"
+  name = "Bobby Rong"
+
+  [[teams.gnome.members]]
+  email = "torhedinbronner@gmail.com"
+  github = "hedning"
+  githubId = 71_978
+  name = "Tor Hedin Brønner"
+
+  [[teams.gnome.members]]
+  email = "jtojnar@gmail.com"
+  github = "jtojnar"
+  githubId = 705_123
+  matrix = "@jtojnar:matrix.org"
+  name = "Jan Tojnar"
+
+  [[teams.gnome.members]]
+  email = "daniel@serbanescu.dk"
+  github = "dasj19"
+  githubId = 7_589_338
+  name = "Daniel Șerbănescu"
+
+[teams.golang]
+enableFeatureFreezePing = true
+githubTeams = [ "golang" ]
+scope = "Maintain Golang compilers."
+shortName = "Go"
+
+  [[teams.golang.members]]
+  email = "wael.nasreddine@gmail.com"
+  github = "kalbasit"
+  githubId = 87_115
+  matrix = "@kalbasit:matrix.org"
+  name = "Wael Nasreddine"
+
+  [[teams.golang.members]]
+  email = "joerg@thalheim.io"
+  github = "Mic92"
+  githubId = 96_200
+  matrix = "@mic92:nixos.dev"
+  name = "Jörg Thalheim"
+
+    [[teams.golang.members.keys]]
+    fingerprint = "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92"
+
+  [[teams.golang.members]]
+  github = "zowoq"
+  githubId = 59_103_226
+  name = "zowoq"
+
+  [[teams.golang.members]]
+  email = "aaron@bolddaemon.com"
+  github = "qbit"
+  githubId = 68_368
+  matrix = "@qbit:tapenet.org"
+  name = "Aaron Bieber"
+
+    [[teams.golang.members.keys]]
+    fingerprint = "3586 3350 BFEA C101 DB1A 4AF0 1F81 112D 62A9 ADCE"
+
+  [[teams.golang.members]]
+  email = "falakreyaz@gmail.com"
+  github = "mfrw"
+  githubId = 4_929_861
+  name = "Muhammad Falak R Wani"
+
+[teams.graalvm-ce]
+scope = "Maintain GraalVM Community Edition packages."
+shortName = "GraalVM-CE"
+
+  [[teams.graalvm-ce.members]]
+  email = "bandresen@gmail.com"
+  github = "bennyandresen"
+  githubId = 80_325
+  name = "Benjamin Andresen"
+
+  [[teams.graalvm-ce.members]]
+  email = "hlolli@gmail.com"
+  github = "hlolli"
+  githubId = 6_074_754
+  name = "Hlodver Sigurdsson"
+
+  [[teams.graalvm-ce.members]]
+  email = "root@gws.fyi"
+  github = "glittershark"
+  githubId = 1_481_027
+  name = "Griffin Smith"
+
+    [[teams.graalvm-ce.members.keys]]
+    fingerprint = "0F11 A989 879E 8BBB FDC1  E236 44EF 5B5E 861C 09A7"
+
+  [[teams.graalvm-ce.members]]
+  email = "me@babariviere.com"
+  github = "babariviere"
+  githubId = 12_128_029
+  name = "Bastien Rivière"
+
+    [[teams.graalvm-ce.members.keys]]
+    fingerprint = "74AA 9AB4 E6FF 872B 3C5A  CB3E 3903 5CC0 B75D 1142"
+
+  [[teams.graalvm-ce.members]]
+  email = "ercdll1337@gmail.com"
+  github = "ericdallo"
+  githubId = 7_820_865
+  name = "Eric Dallo"
+
+  [[teams.graalvm-ce.members]]
+  email = "thiagokokada@gmail.com"
+  github = "thiagokokada"
+  githubId = 844_343
+  matrix = "@k0kada:matrix.org"
+  name = "Thiago K. Okada"
+
+[teams.haskell]
+enableFeatureFreezePing = true
+githubTeams = [ "haskell" ]
+scope = "Maintain Haskell packages and infrastructure."
+shortName = "Haskell"
+
+  [[teams.haskell.members]]
+  email = "cdep.illabout@gmail.com"
+  github = "cdepillabout"
+  githubId = 64_804
+  matrix = "@cdepillabout:matrix.org"
+  name = "Dennis Gosnell"
+
+  [[teams.haskell.members]]
+  email = "nix@monoid.al"
+  github = "expipiplus1"
+  githubId = 857_308
+  matrix = "@ellie:monoid.al"
+  name = "Ellie Hermaszewska"
+
+    [[teams.haskell.members.keys]]
+    fingerprint = "FC1D 3E4F CBCA 80DF E870  6397 C811 6E3A 0C1C A76A"
+
+  [[teams.haskell.members]]
+  email = "mail@maralorn.de"
+  github = "maralorn"
+  githubId = 1_651_325
+  matrix = "@maralorn:maralorn.de"
+  name = "maralorn"
+
+  [[teams.haskell.members]]
+  email = "n@monade.li"
+  github = "ncfavier"
+  githubId = 4_323_933
+  matrix = "@ncfavier:matrix.org"
+  name = "Naïm Favier"
+
+    [[teams.haskell.members.keys]]
+    fingerprint = "F3EB 4BBB 4E71 99BC 299C  D4E9 95AF CE82 1190 8325"
+
+  [[teams.haskell.members]]
+  email = "sternenseemann@systemli.org"
+  github = "sternenseemann"
+  githubId = 3_154_475
+  name = "Lukas Epple"
+
+[teams.helsinki-systems]
+scope = "Group registration for packages maintained by Helsinki Systems"
+shortName = "Helsinki Systems employees"
+
+  [[teams.helsinki-systems.members]]
+  email = "janne@hess.ooo"
+  github = "dasJ"
+  githubId = 4_971_975
+  matrix = "@janne.hess:helsinki-systems.de"
+  name = "Janne Heß"
+
+  [[teams.helsinki-systems.members]]
+  email = "simon.hauser@outlook.com"
+  github = "Conni2461"
+  githubId = 15_233_006
+  name = "Simon Hauser"
+
+[teams.home-assistant]
+scope = "Maintain the Home Assistant ecosystem"
+shortName = "Home Assistant"
+
+  [[teams.home-assistant.members]]
+  email = "mail@fabian-affolter.ch"
+  github = "fabaff"
+  githubId = 116_184
+  matrix = "@fabaff:matrix.org"
+  name = "Fabian Affolter"
+
+    [[teams.home-assistant.members.keys]]
+    fingerprint = "2F6C 930F D3C4 7E38 6AFA  4EB4 E23C D2DD 36A4 397F"
+
+  [[teams.home-assistant.members]]
+  email = "hexa@darmstadt.ccc.de"
+  github = "mweinelt"
+  githubId = 131_599
+  matrix = "@hexa:lossy.network"
+  name = "Martin Weinelt"
+
+  [[teams.home-assistant.members]]
+  email = "joerg@thalheim.io"
+  github = "Mic92"
+  githubId = 96_200
+  matrix = "@mic92:nixos.dev"
+  name = "Jörg Thalheim"
+
+    [[teams.home-assistant.members.keys]]
+    fingerprint = "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92"
+
+[teams.infisical]
+scope = "Maintain Infisical"
+shortName = "Infisical"
+
+  [[teams.infisical.members]]
+  email = "akhilmhdh@infisical.com"
+  github = "akhilmhdh"
+  githubId = 31_166_322
+  name = "Akhil Mohan"
+
+[teams.iog]
+scope = "Input-Output Global employees, which maintain critical software"
+shortName = "Input-Output Global employees"
+
+  [[teams.iog.members]]
+  email = "cleverca22@gmail.com"
+  github = "cleverca22"
+  githubId = 848_609
+  matrix = "@cleverca22:matrix.org"
+  name = "Michael Bishop"
+
+  [[teams.iog.members]]
+  email = "disasm@gmail.com"
+  github = "disassembler"
+  githubId = 651_205
+  name = "Samuel Leathers"
+
+  [[teams.iog.members]]
+  email = "jonringer117@gmail.com"
+  github = "jonringer"
+  githubId = 7_673_602
+  matrix = "@jonringer:matrix.org"
+  name = "Jonathan Ringer"
+
+  [[teams.iog.members]]
+  email = "m.fellinger@gmail.com"
+  github = "manveru"
+  githubId = 3_507
+  matrix = "@manveru:matrix.org"
+  name = "Michael Fellinger"
+
+  [[teams.iog.members]]
+  email = "tim.deh@pm.me"
+  github = "nrdxp"
+  githubId = 34_083_928
+  matrix = "@timdeh:matrix.org"
+  name = "Tim DeHerrera"
+
+[teams.jitsi]
+scope = "Maintain Jitsi."
+shortName = "Jitsi"
+
+  [[teams.jitsi.members]]
+  email = "cleeyv@riseup.net"
+  github = "cleeyv"
+  githubId = 71_959_829
+  name = "Cleeyv"
+
+  [[teams.jitsi.members]]
+  email = "ryan@ryantm.com"
+  github = "ryantm"
+  githubId = 4_804
+  matrix = "@ryantm:matrix.org"
+  name = "Ryan Mulligan"
+
+  [[teams.jitsi.members]]
+  email = "lassulus@gmail.com"
+  github = "Lassulus"
+  githubId = 621_759
+  matrix = "@lassulus:lassul.us"
+  name = "Lassulus"
+
+  [[teams.jitsi.members]]
+  email = "github@uwu.is"
+  github = "yayayayaka"
+  githubId = 73_759_599
+  matrix = "@yaya:uwu.is"
+  name = "Yaya"
+
+  [[teams.jitsi.members]]
+  email = "lorenzo@mailbox.org"
+  github = "asymmetric"
+  githubId = 101_816
+  name = "Lorenzo Manacorda"
+
+[teams.jupyter]
+scope = "Maintain Jupyter and related packages."
+shortName = "Jupyter"
+
+  [[teams.jupyter.members]]
+  email = "gaetan@glepage.com"
+  github = "GaetanLepage"
+  githubId = 33_058_747
+  name = "Gaetan Lepage"
+
+  [[teams.jupyter.members]]
+  email = "nixpkgs@natsukium.com"
+  github = "natsukium"
+  githubId = 25_083_790
+  name = "Tomoya Otabi"
+
+    [[teams.jupyter.members.keys]]
+    fingerprint = "3D14 6004 004C F882 D519  6CD4 9EA4 5A31 DB99 4C53"
+
+  [[teams.jupyter.members]]
+  email = "tom@codedown.io"
+  github = "thomasjm"
+  githubId = 1_634_990
+  name = "Tom McLaughlin"
+
+[teams.kodi]
+scope = "Maintain Kodi and related packages."
+shortName = "Kodi"
+
+  [[teams.kodi.members]]
+  email = "aaron@fosslib.net"
+  github = "aanderse"
+  githubId = 7_755_101
+  matrix = "@aanderse:nixos.dev"
+  name = "Aaron Andersen"
+
+  [[teams.kodi.members]]
+  email = "page@ruiec.cat"
+  github = "cpages"
+  githubId = 411_324
+  name = "Carles Pagès"
+
+  [[teams.kodi.members]]
+  email = "dominik.schrempf@gmail.com"
+  github = "dschrempf"
+  githubId = 5_596_239
+  name = "Dominik Schrempf"
+
+    [[teams.kodi.members.keys]]
+    fingerprint = "62BC E2BD 49DF ECC7 35C7  E153 875F 2BCF 163F 1B29"
+
+  [[teams.kodi.members]]
+  email = "ed@cflags.cc"
+  github = "edwtjo"
+  githubId = 54_799
+  name = "Edward Tjörnhammar"
+
+  [[teams.kodi.members]]
+  email = "kazenyuk@pm.me"
+  github = "nvmd"
+  githubId = 524_492
+  name = "Sergey Kazenyuk"
+
+  [[teams.kodi.members]]
+  email = "minijackson@riseup.net"
+  github = "minijackson"
+  githubId = 1_200_507
+  name = "Rémi Nicole"
+
+    [[teams.kodi.members.keys]]
+    fingerprint = "3196 83D3 9A1B 4DE1 3DC2  51FD FEA8 88C9 F5D6 4F62"
+
+  [[teams.kodi.members]]
+  email = "peter@hoeg.com"
+  github = "peterhoeg"
+  githubId = 722_550
+  matrix = "@peter:hoeg.com"
+  name = "Peter Hoeg"
+
+  [[teams.kodi.members]]
+  email = "me@sephalon.net"
+  github = "sephalon"
+  githubId = 893_474
+  name = "Stefan Wiehler"
+
+[teams.kubernetes]
+scope = "Maintain the Kubernetes package and module"
+shortName = "Kubernetes"
+
+  [[teams.kubernetes.members]]
+  email = "write@ownrisk.dk"
+  github = "johanot"
+  githubId = 998_763
+  name = "Johan Thomsen"
+
+  [[teams.kubernetes.members]]
+  email = "jaka@x-truder.net"
+  github = "offlinehacker"
+  githubId = 585_547
+  name = "Jaka Hudoklin"
+
+  [[teams.kubernetes.members]]
+  email = "mail@saschagrunert.de"
+  github = "saschagrunert"
+  githubId = 695_473
+  name = "Sascha Grunert"
+
+  [[teams.kubernetes.members]]
+  email = "sbrofeldt@gmail.com"
+  github = "srhb"
+  githubId = 219_362
+  matrix = "@srhb:matrix.org"
+  name = "Sarah Brofeldt"
+
+[teams.libretro]
+scope = "Maintain Libretro, RetroArch and related packages."
+shortName = "Libretro"
+
+  [[teams.libretro.members]]
+  email = "aaron@fosslib.net"
+  github = "aanderse"
+  githubId = 7_755_101
+  matrix = "@aanderse:nixos.dev"
+  name = "Aaron Andersen"
+
+  [[teams.libretro.members]]
+  email = "ed@cflags.cc"
+  github = "edwtjo"
+  githubId = 54_799
+  name = "Edward Tjörnhammar"
+
+  [[teams.libretro.members]]
+  email = "thiagokokada@gmail.com"
+  github = "thiagokokada"
+  githubId = 844_343
+  matrix = "@k0kada:matrix.org"
+  name = "Thiago K. Okada"
+
+[teams.linux-kernel]
+scope = "Maintain the Linux kernel."
+shortName = "Linux Kernel"
+
+  [[teams.linux-kernel.members]]
+  email = "tredwell@tutanota.com"
+  github = "TredwellGit"
+  githubId = 61_860_346
+  name = "Tredwell"
+
+  [[teams.linux-kernel.members]]
+  email = "maximilian@mbosch.me"
+  github = "Ma27"
+  githubId = 6_025_220
+  matrix = "@ma27:nicht-so.sexy"
+  name = "Maximilian Bosch"
+
+  [[teams.linux-kernel.members]]
+  email = "tim@nequissimus.com"
+  github = "NeQuissimus"
+  githubId = 628_342
+  name = "Tim Steinbach"
+
+  [[teams.linux-kernel.members]]
+  email = "hi@alyssa.is"
+  github = "alyssais"
+  githubId = 2_768_870
+  matrix = "@qyliss:fairydust.space"
+  name = "Alyssa Ross"
+
+    [[teams.linux-kernel.members.keys]]
+    fingerprint = "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97"
+
+[teams.lisp]
+enableFeatureFreezePing = true
+githubTeams = [ "lisp" ]
+scope = "Maintain the Lisp ecosystem."
+shortName = "lisp"
+
+  [[teams.lisp.members]]
+  email = "7c6f434c@mail.ru"
+  github = "7c6f434c"
+  githubId = 1_891_350
+  name = "Michael Raskin"
+
+  [[teams.lisp.members]]
+  email = "luke@snabb.co"
+  github = "lukego"
+  githubId = 13_791
+  name = "Luke Gorrie"
+
+  [[teams.lisp.members]]
+  email = "danielnagy@posteo.de"
+  github = "nagy"
+  githubId = 692_274
+  name = "Daniel Nagy"
+
+    [[teams.lisp.members.keys]]
+    fingerprint = "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+
+  [[teams.lisp.members]]
+  email = "galkowskikasper@gmail.com"
+  github = "Uthar"
+  githubId = 15_697_697
+  name = "Kasper Gałkowski"
+
+  [[teams.lisp.members]]
+  email = "hraban@0brg.net"
+  github = "hraban"
+  githubId = 137_852
+  name = "Hraban Luyat"
+
+[teams.lix]
+enableFeatureFreezePing = true
+scope = "Maintain the Lix package manager inside of Nixpkgs."
+shortName = "Lix ecosystem"
+
+  [[teams.lix.members]]
+  email = "ryan@lahfa.xyz"
+  github = "RaitoBezarius"
+  githubId = 314_564
+  matrix = "@raitobezarius:matrix.org"
+  name = "Ryan Lahfa"
+
+  [[teams.lix.members]]
+  email = "qyriad@qyriad.me"
+  github = "Qyriad"
+  githubId = 1_542_224
+  matrix = "@qyriad:katesiria.org"
+  name = "Qyriad"
+
+[teams.llvm]
+enableFeatureFreezePing = true
+githubTeams = [ "llvm" ]
+scope = "Maintain LLVM package sets and related packages"
+shortName = "LLVM"
+
+  [[teams.llvm.members]]
+  email = "w@wdtz.org"
+  github = "dtzWill"
+  githubId = 817_330
+  name = "Will Dietz"
+
+    [[teams.llvm.members.keys]]
+    fingerprint = "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8"
+
+  [[teams.llvm.members]]
+  email = "John.Ericson@Obsidian.Systems"
+  github = "Ericson2314"
+  githubId = 1_055_245
+  matrix = "@ericson2314:matrix.org"
+  name = "John Ericson"
+
+  [[teams.llvm.members]]
+  email = "jason@oconal.id.au"
+  github = "lovek323"
+  githubId = 265_084
+  name = "Jason O'Conal"
+
+  [[teams.llvm.members]]
+  email = "hi@alyssa.is"
+  github = "alyssais"
+  githubId = 2_768_870
+  matrix = "@qyliss:fairydust.space"
+  name = "Alyssa Ross"
+
+    [[teams.llvm.members.keys]]
+    fingerprint = "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97"
+
+  [[teams.llvm.members]]
+  email = "tristan.ross@midstall.com"
+  github = "RossComputerGuy"
+  githubId = 19_699_320
+  name = "Tristan Ross"
+
+  [[teams.llvm.members]]
+  email = "rrbutani+nix@gmail.com"
+  github = "rrbutani"
+  githubId = 7_833_358
+  matrix = "@rbutani:matrix.org"
+  name = "Rahul Butani"
+
+    [[teams.llvm.members.keys]]
+    fingerprint = "7DCA 5615 8AB2 621F 2F32  9FF4 1C7C E491 479F A273"
+
+  [[teams.llvm.members]]
+  email = "sternenseemann@systemli.org"
+  github = "sternenseemann"
+  githubId = 3_154_475
+  name = "Lukas Epple"
+
+[teams.lomiri]
+enableFeatureFreezePing = true
+scope = "Maintain Lomiri desktop environment and related packages."
+shortName = "Lomiri"
+
+  [[teams.lomiri.members]]
+  email = "opna2608@protonmail.com"
+  github = "OPNA2608"
+  githubId = 23_431_373
+  name = "Cosima Neidahl"
+
+[teams.lua]
+enableFeatureFreezePing = true
+githubTeams = [ "lua" ]
+scope = "Maintain the lua ecosystem."
+shortName = "lua"
+
+[teams.lumiguide]
+scope = "Group registration for LumiGuide employees who collectively maintain packages."
+shortName = "Lumiguide employees"
+
+  [[teams.lumiguide.members]]
+  email = "roel@lambdacube.nl"
+  github = "roelvandijk"
+  githubId = 710_906
+  name = "Roel van Dijk"
+
+  [[teams.lumiguide.members]]
+  email = "lars.jellema@gmail.com"
+  github = "Lucus16"
+  githubId = 2_487_922
+  name = "Lars Jellema"
+
+[teams.lumina]
+enableFeatureFreezePing = true
+githubTeams = [ "lumina" ]
+scope = "Maintain lumina desktop environment and related packages."
+shortName = "Lumina"
+
+  [[teams.lumina.members]]
+  email = "malaquias@gmail.com"
+  github = "romildo"
+  githubId = 1_217_934
+  name = "José Romildo Malaquias"
+
+[teams.lxc]
+scope = "All things linuxcontainers. LXC, Incus, LXD and related packages."
+shortName = "lxc"
+
+  [[teams.lxc.members]]
+  email = "aaron@fosslib.net"
+  github = "aanderse"
+  githubId = 7_755_101
+  matrix = "@aanderse:nixos.dev"
+  name = "Aaron Andersen"
+
+  [[teams.lxc.members]]
+  email = "happy.plan4249@valkor.net"
+  github = "adamcstephens"
+  githubId = 2_071_575
+  matrix = "@adam:valkor.net"
+  name = "Adam C. Stephens"
+
+  [[teams.lxc.members]]
+  email = "jon@sgrs.uk"
+  github = "jnsgruk"
+  githubId = 668_505
+  name = "Jon Seager"
+
+  [[teams.lxc.members]]
+  email = "iulian.meghea@gmail.com"
+  github = "megheaiulian"
+  githubId = 1_788_114
+  name = "Meghea Iulian"
+
+  [[teams.lxc.members]]
+  email = "mkg20001+nix@gmail.com"
+  github = "mkg20001"
+  githubId = 7_735_145
+  matrix = "@mkg20001:matrix.org"
+  name = "Maciej Krüger"
+
+    [[teams.lxc.members.keys]]
+    fingerprint = "E90C BA34 55B3 6236 740C  038F 0D94 8CE1 9CF4 9C5F"
+
+[teams.lxqt]
+enableFeatureFreezePing = true
+githubTeams = [ "lxqt" ]
+scope = "Maintain LXQt desktop environment and related packages."
+shortName = "LXQt"
+
+  [[teams.lxqt.members]]
+  email = "malaquias@gmail.com"
+  github = "romildo"
+  githubId = 1_217_934
+  name = "José Romildo Malaquias"
+
+[teams.marketing]
+enableFeatureFreezePing = true
+scope = "Marketing of Nix/NixOS/nixpkgs."
+shortName = "Marketing"
+
+  [[teams.marketing.members]]
+  email = "rok@garbas.si"
+  github = "garbas"
+  githubId = 20_208
+  name = "Rok Garbas"
+
+  [[teams.marketing.members]]
+  email = "tomberek@gmail.com"
+  github = "tomberek"
+  githubId = 178_444
+  matrix = "@tomberek:matrix.org"
+  name = "Thomas Bereknyei"
+
+[teams.mate]
+enableFeatureFreezePing = true
+scope = "Maintain Mate desktop environment and related packages."
+shortName = "MATE"
+
+  [[teams.mate.members]]
+  email = "rjl931189261@126.com"
+  github = "bobby285271"
+  githubId = 20_080_233
+  matrix = "@bobby285271:matrix.org"
+  name = "Bobby Rong"
+
+  [[teams.mate.members]]
+  email = "github@johannesloetzsch.de"
+  github = "johannesloetzsch"
+  githubId = 175_537
+  name = "Johannes Lötzsch"
+
+  [[teams.mate.members]]
+  email = "malaquias@gmail.com"
+  github = "romildo"
+  githubId = 1_217_934
+  name = "José Romildo Malaquias"
+
+[teams.matrix]
+scope = "Maintain the ecosystem around Matrix, a decentralized messenger."
+shortName = "Matrix"
+
+  [[teams.matrix.members]]
+  email = "maximilian@mbosch.me"
+  github = "Ma27"
+  githubId = 6_025_220
+  matrix = "@ma27:nicht-so.sexy"
+  name = "Maximilian Bosch"
+
+  [[teams.matrix.members]]
+  email = "tristan.helmich+nixos@gmail.com"
+  github = "fadenb"
+  githubId = 878_822
+  name = "Tristan Helmich"
+
+  [[teams.matrix.members]]
+  email = "code@klandest.in"
+  github = "mguentner"
+  githubId = 668_926
+  name = "Maximilian Güntner"
+
+  [[teams.matrix.members]]
+  email = "ben.e.saunders@gmail.com"
+  github = "Ralith"
+  githubId = 104_558
+  matrix = "@ralith:ralith.com"
+  name = "Benjamin Saunders"
+
+  [[teams.matrix.members]]
+  email = "daniel@dodsorf.as"
+  github = "dali99"
+  githubId = 990_767
+  matrix = "@dandellion:dodsorf.as"
+  name = "Daniel Olsen"
+
+  [[teams.matrix.members]]
+  email = "me@sumnerevans.com"
+  github = "sumnerevans"
+  githubId = 16_734_772
+  name = "Sumner Evans"
+
+  [[teams.matrix.members]]
+  email = "nickcao@nichi.co"
+  github = "NickCao"
+  githubId = 15_247_171
+  name = "Nick Cao"
+
+[teams.mercury]
+scope = "Group registry for packages maintained by Mercury"
+shortName = "Mercury Employees"
+
+  [[teams.mercury.members]]
+  email = "rbt@fastmail.com"
+  github = "9999years"
+  githubId = 15_312_184
+  name = "Rebecca Turner"
+
+  [[teams.mercury.members]]
+  email = "GenuineGabriella@gmail.com"
+  github = "Gabriella439"
+  githubId = 1_313_787
+  name = "Gabriella Gonzalez"
+
+[teams.minimal-bootstrap]
+scope = "Maintain the minimal-bootstrap toolchain and related packages."
+shortName = "Minimal Bootstrap"
+
+  [[teams.minimal-bootstrap.members]]
+  email = "alejandrosanchzmedina@gmail.com"
+  github = "alejandrosame"
+  githubId = 1_078_000
+  matrix = "@alejandrosame:matrix.org"
+  name = "Alejandro Sánchez Medina"
+
+  [[teams.minimal-bootstrap.members]]
+  email = "artturin@artturin.com"
+  github = "Artturin"
+  githubId = 56_650_223
+  matrix = "@artturin:matrix.org"
+  name = "Artturi N"
+
+  [[teams.minimal-bootstrap.members]]
+  email = "emily+nix@downunderctf.com"
+  github = "emilytrau"
+  githubId = 13_267_947
+  name = "Emily Trau"
+
+  [[teams.minimal-bootstrap.members]]
+  email = "John.Ericson@Obsidian.Systems"
+  github = "Ericson2314"
+  githubId = 1_055_245
+  matrix = "@ericson2314:matrix.org"
+  name = "John Ericson"
+
+  [[teams.minimal-bootstrap.members]]
+  email = "hello+nixpkgs@j-k.io"
+  github = "06kellyjac"
+  githubId = 9_866_621
+  matrix = "@j-k:matrix.org"
+  name = "Jack"
+
+  [[teams.minimal-bootstrap.members]]
+  email = "bensiraphob@gmail.com"
+  github = "siraben"
+  githubId = 8_219_659
+  matrix = "@siraben:matrix.org"
+  name = "Siraphob Phipathananunth"
+
+[teams.mobile]
+scope = "Maintain Mobile NixOS."
+shortName = "Mobile"
+
+  [[teams.mobile.members]]
+  email = "samuel@dionne-riel.com"
+  github = "samueldr"
+  githubId = 132_835
+  matrix = "@samueldr:matrix.org"
+  name = "Samuel Dionne-Riel"
+
+[teams.module-system]
+enableFeatureFreezePing = true
+scope = "Maintain the Nixpkgs module system."
+shortName = "Module system"
+
+  [[teams.module-system.members]]
+  email = "contact@infinisil.com"
+  github = "infinisil"
+  githubId = 20_525_370
+  matrix = "@infinisil:matrix.org"
+  name = "Silvan Mosberger"
+
+    [[teams.module-system.members.keys]]
+    fingerprint = "6C2B 55D4 4E04 8266 6B7D  DA1A 422E 9EDA E015 7170"
+
+  [[teams.module-system.members]]
+  email = "nixpkgs@roberthensing.nl"
+  github = "roberth"
+  githubId = 496_447
+  matrix = "@roberthensing:matrix.org"
+  name = "Robert Hensing"
+
+[teams.nix]
+enableFeatureFreezePing = true
+scope = "Maintain the Nix package manager."
+shortName = "Nix/nix-cli ecosystem"
+
+  [[teams.nix.members]]
+  email = "edolstra+nixpkgs@gmail.com"
+  github = "edolstra"
+  githubId = 1_148_549
+  name = "Eelco Dolstra"
+
+  [[teams.nix.members]]
+  email = "graham@grahamc.com"
+  github = "grahamc"
+  githubId = 76_716
+  name = "Graham Christensen"
+
+  [[teams.nix.members]]
+  email = "nixos@nbp.name"
+  github = "nbp"
+  githubId = 1_179_566
+  name = "Nicolas B. Pierron"
+
+[teams.node]
+enableFeatureFreezePing = true
+scope = "Maintain Node.js runtimes and build tooling."
+shortName = "Node.js"
+
+  [[teams.node.members]]
+  email = "lily@lily.flowers"
+  github = "lilyinstarlight"
+  githubId = 298_109
+  matrix = "@lily:lily.flowers"
+  name = "Lily Foster"
+
+  [[teams.node.members]]
+  email = "nixos@winter.cafe"
+  github = "winterqt"
+  githubId = 78_392_041
+  name = "Winter"
+
+[teams.ocaml]
+enableFeatureFreezePing = true
+githubTeams = [ "ocaml" ]
+scope = "Maintain the OCaml compiler and package set."
+shortName = "OCaml"
+
+  [[teams.ocaml.members]]
+  email = "alizter@gmail.com"
+  github = "Alizter"
+  githubId = 8_614_547
+  name = "Ali Caglayan"
+
+[teams.openstack]
+scope = "Maintain the ecosystem around OpenStack"
+shortName = "OpenStack"
+
+  [[teams.openstack.members]]
+  email = "sandro.jaeckel@gmail.com"
+  github = "SuperSandro2000"
+  githubId = 7_258_858
+  matrix = "@sandro:supersandro.de"
+  name = "Sandro Jäckel"
+
+[teams.ororatech]
+scope = "Team for packages maintained by employees of OroraTech GmbH."
+shortName = "OroraTech GmbH. employees"
+
+  [[teams.ororatech.members]]
+  email = "leandro@kip93.net"
+  github = "kip93"
+  githubId = 26_793_632
+  matrix = "@kip93:matrix.org"
+  name = "Leandro Reina Kiperman"
+
+  [[teams.ororatech.members]]
+  email = "victor.meriqui@ororatech.com"
+  github = "victormeriqui"
+  githubId = 1_396_008
+  name = "Victor Meriqui"
+
+[teams.pantheon]
+enableFeatureFreezePing = true
+githubTeams = [ "pantheon" ]
+scope = "Maintain Pantheon desktop environment and platform."
+shortName = "Pantheon"
+
+  [[teams.pantheon.members]]
+  email = "post@davidak.de"
+  github = "davidak"
+  githubId = 91_113
+  matrix = "@davidak:matrix.org"
+  name = "David Kleuker"
+
+  [[teams.pantheon.members]]
+  email = "rjl931189261@126.com"
+  github = "bobby285271"
+  githubId = 20_080_233
+  matrix = "@bobby285271:matrix.org"
+  name = "Bobby Rong"
+
+[teams.perl]
+enableFeatureFreezePing = true
+scope = "Maintain the Perl interpreter and Perl packages."
+shortName = "Perl"
+
+  [[teams.perl.members]]
+  email = "stig@stig.io"
+  github = "stigtsp"
+  githubId = 75_371
+  name = "Stig Palmquist"
+
+[teams.php]
+enableFeatureFreezePing = true
+githubTeams = [ "php" ]
+scope = "Maintain PHP related packages and extensions."
+shortName = "PHP"
+
+  [[teams.php.members]]
+  email = "aaron@fosslib.net"
+  github = "aanderse"
+  githubId = 7_755_101
+  matrix = "@aanderse:nixos.dev"
+  name = "Aaron Andersen"
+
+  [[teams.php.members]]
+  email = "pol.dellaiera@protonmail.com"
+  github = "drupol"
+  githubId = 252_042
+  matrix = "@drupol:matrix.org"
+  name = "Pol Dellaiera"
+
+    [[teams.php.members.keys]]
+    fingerprint = "85F3 72DF 4AF3 EF13 ED34  72A3 0AAF 2901 E804 0715"
+
+  [[teams.php.members]]
+  email = "maximilian@mbosch.me"
+  github = "Ma27"
+  githubId = 6_025_220
+  matrix = "@ma27:nicht-so.sexy"
+  name = "Maximilian Bosch"
+
+  [[teams.php.members]]
+  email = "patka@patka.dev"
+  github = "patka-123"
+  githubId = 69_802_930
+  name = "patka"
+
+  [[teams.php.members]]
+  email = "kim.lindberger@gmail.com"
+  github = "talyz"
+  githubId = 63_433
+  matrix = "@talyz:matrix.org"
+  name = "Kim Lindberger"
+
+[teams.podman]
+githubTeams = [ "podman" ]
+scope = "Maintain Podman and CRI-O related packages and modules."
+shortName = "Podman"
+
+  [[teams.podman.members]]
+  email = "mail@saschagrunert.de"
+  github = "saschagrunert"
+  githubId = 695_473
+  name = "Sascha Grunert"
+
+  [[teams.podman.members]]
+  email = "vincent@sbr.pm"
+  github = "vdemeester"
+  githubId = 6_508
+  name = "Vincent Demeester"
+
+[teams.postgres]
+scope = "Maintain the PostgreSQL package and plugins along with the NixOS module."
+shortName = "PostgreSQL"
+
+  [[teams.postgres.members]]
+  email = "aseipp@pobox.com"
+  github = "thoughtpolice"
+  githubId = 3_416
+  name = "Austin Seipp"
+
+[teams.python]
+enableFeatureFreezePing = true
+scope = "Maintain the Python interpreter and related packages."
+shortName = "Python"
+
+  [[teams.python.members]]
+  email = "hexa@darmstadt.ccc.de"
+  github = "mweinelt"
+  githubId = 131_599
+  matrix = "@hexa:lossy.network"
+  name = "Martin Weinelt"
+
+  [[teams.python.members]]
+  email = "jonringer117@gmail.com"
+  github = "jonringer"
+  githubId = 7_673_602
+  matrix = "@jonringer:matrix.org"
+  name = "Jonathan Ringer"
+
+  [[teams.python.members]]
+  email = "43ngvg@masqt.com"
+  github = "tjni"
+  githubId = 3_806_110
+  matrix = "@tni:matrix.org"
+  name = "Theodore Ni"
+
+    [[teams.python.members.keys]]
+    fingerprint = "4384 B8E1 299F C028 1641  7B8F EC30 EFBE FA7E 84A4"
+
+[teams.qt-kde]
+enableFeatureFreezePing = true
+githubTeams = [ "qt-kde" ]
+scope = "Maintain the Qt framework, KDE application suite, Plasma desktop environment and related projects."
+shortName = "Qt / KDE"
+
+  [[teams.qt-kde.members]]
+  email = "fedin-ilja2010@ya.ru"
+  github = "ilya-fedin"
+  githubId = 17_829_319
+  name = "Ilya Fedin"
+
+  [[teams.qt-kde.members]]
+  email = "me@0upti.me"
+  github = "K900"
+  githubId = 386_765
+  matrix = "@k900:0upti.me"
+  name = "Ilya K."
+
+  [[teams.qt-kde.members]]
+  email = "nixpkgs-maintainer@lunnova.dev"
+  github = "LunNova"
+  githubId = 782_440
+  name = "Luna Nova"
+
+  [[teams.qt-kde.members]]
+  email = "matt@mattmoriarity.com"
+  github = "mjm"
+  githubId = 1_181
+  matrix = "@mjm:beeper.com"
+  name = "Matt Moriarity"
+
+  [[teams.qt-kde.members]]
+  email = "nickcao@nichi.co"
+  github = "NickCao"
+  githubId = 15_247_171
+  name = "Nick Cao"
+
+  [[teams.qt-kde.members]]
+  email = "sandro.jaeckel@gmail.com"
+  github = "SuperSandro2000"
+  githubId = 7_258_858
+  matrix = "@sandro:supersandro.de"
+  name = "Sandro Jäckel"
+
+  [[teams.qt-kde.members]]
+  email = "ttuegel@mailbox.org"
+  github = "ttuegel"
+  githubId = 563_054
+  name = "Thomas Tuegel"
+
+[teams.r]
+enableFeatureFreezePing = true
+scope = "Maintain the R programming language and related packages."
+shortName = "R"
+
+  [[teams.r.members]]
+  email = "bruno@brodrigues.co"
+  github = "b-rodrigues"
+  githubId = 2_998_834
+  name = "Bruno Rodrigues"
+
+  [[teams.r.members]]
+  email = "bcdarwin@gmail.com"
+  github = "bcdarwin"
+  githubId = 164_148
+  name = "Ben Darwin"
+
+  [[teams.r.members]]
+  email = "cu@cua0.org"
+  github = "jbedo"
+  githubId = 372_912
+  matrix = "@jb:vk3.wtf"
+  name = "Justin Bedő"
+
+  [[teams.r.members]]
+  github = "Kupac"
+  githubId = 8_224_569
+  name = "László Kupcsik"
+
+[teams.redcodelabs]
+scope = "Maintain Red Code Labs related packages and modules."
+shortName = "Red Code Labs"
+
+  [[teams.redcodelabs.members]]
+  email = "konrad.root.klawikowski@gmail.com"
+  github = "unrooted"
+  githubId = 30_440_603
+  name = "Konrad Klawikowski"
+
+  [[teams.redcodelabs.members]]
+  email = "wrobel.jakub@protonmail.com"
+  github = "wr0belj"
+  githubId = 40_501_814
+  name = "Jakub Wróbel"
+
+  [[teams.redcodelabs.members]]
+  email = "kubalutczyn@gmail.com"
+  github = "wintrmvte"
+  githubId = 41_823_252
+  name = "Jakub Lutczyn"
+
+[teams.release]
+githubTeams = [ "nixos-release-managers" ]
+members = [ ]
+scope = "Manage the current nixpkgs/NixOS release."
+shortName = "Release"
+
+[teams.rocm]
+githubTeams = [ "rocm-maintainers" ]
+scope = "Maintain ROCm and related packages."
+shortName = "ROCm"
+
+  [[teams.rocm.members]]
+  email = "madouura@gmail.com"
+  github = "Madouura"
+  githubId = 93_990_818
+  name = "Madoura"
+
+  [[teams.rocm.members]]
+  email = "flakebi@t-online.de"
+  github = "Flakebi"
+  githubId = 6_499_211
+  name = "Sebastian Neubauer"
+
+    [[teams.rocm.members.keys]]
+    fingerprint = "2F93 661D AC17 EA98 A104  F780 ECC7 55EE 583C 1672"
+
+  [[teams.rocm.members]]
+  email = "mschwaig+nixpkgs@eml.cc"
+  github = "mschwaig"
+  githubId = 3_856_390
+  name = "Martin Schwaighofer"
+
+[teams.ruby]
+enableFeatureFreezePing = true
+members = [ ]
+scope = "Maintain the Ruby interpreter and related packages."
+shortName = "Ruby"
+
+[teams.rust]
+enableFeatureFreezePing = true
+githubTeams = [ "rust" ]
+scope = "Maintain the Rust compiler toolchain and nixpkgs integration."
+shortName = "Rust"
+
+  [[teams.rust.members]]
+  email = "figsoda@pm.me"
+  github = "figsoda"
+  githubId = 40_620_903
+  matrix = "@figsoda:matrix.org"
+  name = "figsoda"
+
+  [[teams.rust.members]]
+  email = "joerg@thalheim.io"
+  github = "Mic92"
+  githubId = 96_200
+  matrix = "@mic92:nixos.dev"
+  name = "Jörg Thalheim"
+
+    [[teams.rust.members.keys]]
+    fingerprint = "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92"
+
+  [[teams.rust.members]]
+  email = "43ngvg@masqt.com"
+  github = "tjni"
+  githubId = 3_806_110
+  matrix = "@tni:matrix.org"
+  name = "Theodore Ni"
+
+    [[teams.rust.members.keys]]
+    fingerprint = "4384 B8E1 299F C028 1641  7B8F EC30 EFBE FA7E 84A4"
+
+  [[teams.rust.members]]
+  email = "nixos@winter.cafe"
+  github = "winterqt"
+  githubId = 78_392_041
+  name = "Winter"
+
+  [[teams.rust.members]]
+  github = "zowoq"
+  githubId = 59_103_226
+  name = "zowoq"
+
+[teams.sage]
+scope = "Maintain SageMath and the dependencies that are likely to break it."
+shortName = "SageMath"
+
+  [[teams.sage.members]]
+  email = "timokau@zoho.com"
+  github = "timokau"
+  githubId = 3_799_330
+  name = "Timo Kaufmann"
+
+  [[teams.sage.members]]
+  github = "omasanori"
+  githubId = 167_209
+  name = "Masanori Ogino"
+
+  [[teams.sage.members]]
+  email = "7c6f434c@mail.ru"
+  github = "7c6f434c"
+  githubId = 1_891_350
+  name = "Michael Raskin"
+
+  [[teams.sage.members]]
+  email = "mauricio@collares.org"
+  github = "collares"
+  githubId = 244_239
+  name = "Mauricio Collares"
+
+[teams.serokell]
+scope = "Group registration for Serokell employees who collectively maintain packages."
+shortName = "Serokell employees"
+
+  [[teams.serokell.members]]
+  email = "balsoft75@gmail.com"
+  github = "balsoft"
+  githubId = 18_467_667
+  name = "Alexander Bantyev"
+
+[teams.sphinx]
+members = [ ]
+scope = "Maintain Sphinx related packages."
+shortName = "Sphinx"
+
+[teams.steam]
+scope = "Maintain steam module and packages"
+shortName = "Steam"
+
+  [[teams.steam.members]]
+  email = "atemu.main+nixpkgs@gmail.com"
+  github = "Atemu"
+  githubId = 18_599_032
+  name = "Atemu"
+
+  [[teams.steam.members]]
+  email = "contactmeongithubinstead@proton.me"
+  github = "eclairevoyant"
+  githubId = 848_000
+  name = "éclairevoyant"
+
+  [[teams.steam.members]]
+  email = "jonringer117@gmail.com"
+  github = "jonringer"
+  githubId = 7_673_602
+  matrix = "@jonringer:matrix.org"
+  name = "Jonathan Ringer"
+
+  [[teams.steam.members]]
+  email = "me@0upti.me"
+  github = "K900"
+  githubId = 386_765
+  matrix = "@k900:0upti.me"
+  name = "Ilya K."
+
+  [[teams.steam.members]]
+  email = "mkg20001+nix@gmail.com"
+  github = "mkg20001"
+  githubId = 7_735_145
+  matrix = "@mkg20001:matrix.org"
+  name = "Maciej Krüger"
+
+    [[teams.steam.members.keys]]
+    fingerprint = "E90C BA34 55B3 6236 740C  038F 0D94 8CE1 9CF4 9C5F"
+
+[teams.systemd]
+enableFeatureFreezePing = true
+githubTeams = [ "systemd" ]
+members = [ ]
+scope = "Maintain systemd for NixOS."
+shortName = "systemd"
+
+[teams.tests]
+enableFeatureFreezePing = true
+scope = "Maintain the NixOS VM test runner."
+shortName = "NixOS tests"
+
+  [[teams.tests.members]]
+  email = "jacek@galowicz.de"
+  github = "tfc"
+  githubId = 29_044
+  matrix = "@jonge:ukvly.org"
+  name = "Jacek Galowicz"
+
+[teams.tts]
+scope = "coqui-ai TTS (formerly Mozilla TTS) and leaf packages"
+shortName = "coqui-ai TTS"
+
+  [[teams.tts.members]]
+  email = "joerg@thalheim.io"
+  github = "Mic92"
+  githubId = 96_200
+  matrix = "@mic92:nixos.dev"
+  name = "Jörg Thalheim"
+
+    [[teams.tts.members.keys]]
+    fingerprint = "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92"
+
+[teams.vim]
+scope = "Maintain the vim and neovim text editors and related packages."
+shortName = "Vim/Neovim"
+
+  [[teams.vim.members]]
+  email = "figsoda@pm.me"
+  github = "figsoda"
+  githubId = 40_620_903
+  matrix = "@figsoda:matrix.org"
+  name = "figsoda"
+
+  [[teams.vim.members]]
+  email = "jonringer117@gmail.com"
+  github = "jonringer"
+  githubId = 7_673_602
+  matrix = "@jonringer:matrix.org"
+  name = "Jonathan Ringer"
+
+  [[teams.vim.members]]
+  email = "code@softinio.com"
+  github = "softinio"
+  githubId = 3_371_635
+  name = "Salar Rahmanian"
+
+  [[teams.vim.members]]
+  email = "mcoudron@hotmail.com"
+  github = "teto"
+  githubId = 886_074
+  name = "Matthieu Coudron"
+
+[teams.wdz]
+scope = "Group registration for WDZ GmbH team members who collectively maintain packages."
+shortName = "WDZ GmbH"
+
+  [[teams.wdz.members]]
+  email = "nixpkgs@n0emis.network"
+  github = "n0emis"
+  githubId = 22_817_873
+  name = "Ember Keske"
+
+  [[teams.wdz.members]]
+  email = "v@vidister.de"
+  github = "vidister"
+  githubId = 11_413_574
+  name = "Fiona Weber"
+
+  [[teams.wdz.members]]
+  email = "nix@wagner.digital"
+  github = "johannwagner"
+  githubId = 12_380_026
+  name = "Johann Wagner"
+
+  [[teams.wdz.members]]
+  email = "yuka@yuka.dev"
+  github = "yu-re-ka"
+  githubId = 86_169_957
+  matrix = "@yuka:yuka.dev"
+  name = "Yureka"
+
+[teams.xfce]
+enableFeatureFreezePing = true
+scope = "Maintain Xfce desktop environment and related packages."
+shortName = "Xfce"
+
+  [[teams.xfce.members]]
+  email = "rjl931189261@126.com"
+  github = "bobby285271"
+  githubId = 20_080_233
+  matrix = "@bobby285271:matrix.org"
+  name = "Bobby Rong"
+
+  [[teams.xfce.members]]
+  email = "malaquias@gmail.com"
+  github = "romildo"
+  githubId = 1_217_934
+  name = "José Romildo Malaquias"
+
+  [[teams.xfce.members]]
+  email = "muscaln@protonmail.com"
+  github = "muscaln"
+  githubId = 96_225_281
+  name = "Mustafa Çalışkan"
+
+[teams.zig]
+enableFeatureFreezePing = true
+scope = "Maintain the Zig compiler toolchain and nixpkgs integration."
+shortName = "Zig"
+
+  [[teams.zig.members]]
+  email = "torres.anderson.85@protonmail.com"
+  github = "AndersonTorres"
+  githubId = 5_954_806
+  matrix = "@anderson_torres:matrix.org"
+  name = "Anderson Torres"
+
+  [[teams.zig.members]]
+  email = "figsoda@pm.me"
+  github = "figsoda"
+  githubId = 40_620_903
+  matrix = "@figsoda:matrix.org"
+  name = "figsoda"
