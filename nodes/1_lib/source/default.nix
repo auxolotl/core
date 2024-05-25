@@ -43,7 +43,7 @@ let
 
     # constants
     licenses = static.setup.licenses;
-    sourceTypes = callLibs ./source-types.nix;
+    sourceTypes = static.setup.sourceTypes;
     systems = callLibs ./systems;
 
     # serialization

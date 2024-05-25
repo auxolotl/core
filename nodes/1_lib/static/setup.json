@@ -1,4 +1,22 @@
 {
+    "sourceTypes": {
+        "binaryBytecode": {
+            "isSource": false,
+            "shortName": "binaryBytecode"
+        },
+        "binaryFirmware": {
+            "isSource": false,
+            "shortName": "binaryFirmware"
+        },
+        "binaryNativeCode": {
+            "isSource": false,
+            "shortName": "binaryNativeCode"
+        },
+        "fromSource": {
+            "isSource": true,
+            "shortName": "fromSource"
+        }
+    },
     "licenses": {
         "abstyles": {
             "deprecated": false,
