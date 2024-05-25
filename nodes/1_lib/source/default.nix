@@ -4,46 +4,17 @@
  * for new functions in `./tests.nix`.
  */
 let
-
+  loadStatic = (folder:
+    {
+      setup        = builtins.fromJSON ( builtins.readFile  "${folder}/static/setup.json"         );
+      meta         = builtins.fromJSON ( builtins.readFile  "${folder}/static/meta.json"          );
+    }
+  );
+  static = loadStatic ../.;
   inherit (import ./fixed-points.nix { inherit lib; }) makeExtensible;
 
   lib = makeExtensible (self: let
     callLibs = file: import file { lib = self; };
-    loadNode = (root: folder:
-        let
-            static = {
-                setup        = builtins.fromJSON builtins.readFile ( "${root}/${folder}/static/setup.json" );
-                dependencies = builtins.fromJSON builtins.readFile ( "${root}/${folder}/static/dependencies.json" );
-                meta         = builtins.fromJSON builtins.readFile ( "${root}/${folder}/static/meta.json" );
-            };
-            _nodeNames = (builtins.attrNames static.dependencies.nodes);
-        in
-            # basecase
-            if (builtins.length _nodeNames) == 0
-            then
-                {
-                    static = static;
-                    value = import "${root}/${folder}/default.nix";
-                    dependencies = {};
-                }
-            # recursive case
-            else
-                {
-                    static = static;
-                    value = import "${root}/${folder}/default.nix";
-                    dependencies.nodes = (builtins.listToAttrs
-                        (builtins.map
-                            (nodeName: 
-                                { 
-                                    name = nodeName;
-                                    value = (loadNode root nodeName).value;
-                                }
-                            )
-                            _nodeNames
-                        )
-                    );
-                }
-    );
   in {
     builtins = builtins;
     
@@ -71,7 +42,7 @@ let
     types = callLibs ./types.nix;
 
     # constants
-    licenses = callLibs ./licenses.nix;
+    licenses = static.setup.licenses;
     sourceTypes = callLibs ./source-types.nix;
     systems = callLibs ./systems;
 
@@ -192,13 +163,6 @@ let
     inherit (self.versions)
       splitVersion;
     
-    loadStatic = (folder:
-        {
-            setup        = builtins.fromJSON ( builtins.readFile  "${folder}/static/setup.json"         );
-            dependencies = builtins.fromJSON ( builtins.readFile  "${folder}/static/dependencies.json"  );
-            meta         = builtins.fromJSON ( builtins.readFile  "${folder}/static/meta.json"          );
-        }
-    );
-    loadNode = loadNode;
+    loadStatic = loadStatic;
   });
 in lib

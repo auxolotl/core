@@ -1,2 +1,2111 @@
 {
+    "licenses": {
+        "abstyles": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Abstyles License",
+            "redistributable": true,
+            "shortName": "abstyles",
+            "spdxId": "Abstyles",
+            "url": "https://spdx.org/licenses/Abstyles.html"
+        },
+        "acsl14": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Anti-Capitalist Software License v1.4",
+            "redistributable": false,
+            "shortName": "acsl14",
+            "url": "https://anticapitalist.software/"
+        },
+        "activision": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Activision EULA",
+            "redistributable": false,
+            "shortName": "activision",
+            "url": "https://www.doomworld.com/eternity/activision_eula.txt"
+        },
+        "afl20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Academic Free License v2.0",
+            "redistributable": true,
+            "shortName": "afl20",
+            "spdxId": "AFL-2.0",
+            "url": "https://spdx.org/licenses/AFL-2.0.html"
+        },
+        "afl21": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Academic Free License v2.1",
+            "redistributable": true,
+            "shortName": "afl21",
+            "spdxId": "AFL-2.1",
+            "url": "https://spdx.org/licenses/AFL-2.1.html"
+        },
+        "afl3": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Academic Free License v3.0",
+            "redistributable": true,
+            "shortName": "afl3",
+            "spdxId": "AFL-3.0",
+            "url": "https://spdx.org/licenses/AFL-3.0.html"
+        },
+        "agpl3Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Affero General Public License v3.0 only",
+            "redistributable": true,
+            "shortName": "agpl3Only",
+            "spdxId": "AGPL-3.0-only",
+            "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+        },
+        "agpl3Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Affero General Public License v3.0 or later",
+            "redistributable": true,
+            "shortName": "agpl3Plus",
+            "spdxId": "AGPL-3.0-or-later",
+            "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+        },
+        "aladdin": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Aladdin Free Public License",
+            "redistributable": false,
+            "shortName": "aladdin",
+            "spdxId": "Aladdin",
+            "url": "https://spdx.org/licenses/Aladdin.html"
+        },
+        "amazonsl": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Amazon Software License",
+            "redistributable": false,
+            "shortName": "amazonsl",
+            "url": "https://aws.amazon.com/asl/"
+        },
+        "amd": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "AMD License Agreement",
+            "redistributable": false,
+            "shortName": "amd",
+            "url": "https://developer.amd.com/amd-license-agreement/"
+        },
+        "aom": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Alliance for Open Media Patent License 1.0",
+            "redistributable": true,
+            "shortName": "aom",
+            "url": "https://aomedia.org/license/patent-license/"
+        },
+        "apple-psl10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Apple Public Source License 1.0",
+            "redistributable": true,
+            "shortName": "apple-psl10",
+            "spdxId": "APSL-1.0",
+            "url": "https://spdx.org/licenses/APSL-1.0.html"
+        },
+        "apple-psl20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Apple Public Source License 2.0",
+            "redistributable": true,
+            "shortName": "apple-psl20",
+            "spdxId": "APSL-2.0",
+            "url": "https://spdx.org/licenses/APSL-2.0.html"
+        },
+        "apsl10": {
+            "deprecated": true,
+            "free": true,
+            "fullName": "Apple Public Source License 1.0",
+            "redistributable": true,
+            "shortName": "apsl10",
+            "spdxId": "APSL-1.0",
+            "url": "https://spdx.org/licenses/APSL-1.0.html"
+        },
+        "apsl20": {
+            "deprecated": true,
+            "free": true,
+            "fullName": "Apple Public Source License 2.0",
+            "redistributable": true,
+            "shortName": "apsl20",
+            "spdxId": "APSL-2.0",
+            "url": "https://spdx.org/licenses/APSL-2.0.html"
+        },
+        "arphicpl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Arphic Public License",
+            "redistributable": true,
+            "shortName": "arphicpl",
+            "spdxId": "Arphic-1999",
+            "url": "https://spdx.org/licenses/Arphic-1999.html"
+        },
+        "artistic1": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Artistic License 1.0",
+            "redistributable": true,
+            "shortName": "artistic1",
+            "spdxId": "Artistic-1.0",
+            "url": "https://spdx.org/licenses/Artistic-1.0.html"
+        },
+        "artistic1-cl8": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Artistic License 1.0 w/clause 8",
+            "redistributable": true,
+            "shortName": "artistic1-cl8",
+            "spdxId": "Artistic-1.0-cl8",
+            "url": "https://spdx.org/licenses/Artistic-1.0-cl8.html"
+        },
+        "artistic2": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Artistic License 2.0",
+            "redistributable": true,
+            "shortName": "artistic2",
+            "spdxId": "Artistic-2.0",
+            "url": "https://spdx.org/licenses/Artistic-2.0.html"
+        },
+        "asl20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Apache License 2.0",
+            "redistributable": true,
+            "shortName": "asl20",
+            "spdxId": "Apache-2.0",
+            "url": "https://spdx.org/licenses/Apache-2.0.html"
+        },
+        "asl20-llvm": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Apache License 2.0 with LLVM Exceptions",
+            "redistributable": true,
+            "shortName": "asl20-llvm",
+            "spdxId": "Apache-2.0 WITH LLVM-exception",
+            "url": "https://spdx.org/licenses/Apache-2.0 WITH LLVM-exception.html"
+        },
+        "beerware": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Beerware License",
+            "redistributable": true,
+            "shortName": "beerware",
+            "spdxId": "Beerware",
+            "url": "https://spdx.org/licenses/Beerware.html"
+        },
+        "bitTorrent10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": " BitTorrent Open Source License v1.0",
+            "redistributable": true,
+            "shortName": "bitTorrent10",
+            "spdxId": "BitTorrent-1.0",
+            "url": "https://spdx.org/licenses/BitTorrent-1.0.html"
+        },
+        "bitTorrent11": {
+            "deprecated": false,
+            "free": true,
+            "fullName": " BitTorrent Open Source License v1.1",
+            "redistributable": true,
+            "shortName": "bitTorrent11",
+            "spdxId": "BitTorrent-1.1",
+            "url": "https://spdx.org/licenses/BitTorrent-1.1.html"
+        },
+        "bitstreamVera": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Bitstream Vera Font License",
+            "redistributable": true,
+            "shortName": "bitstreamVera",
+            "spdxId": "Bitstream-Vera",
+            "url": "https://spdx.org/licenses/Bitstream-Vera.html"
+        },
+        "blueOak100": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Blue Oak Model License 1.0.0",
+            "redistributable": true,
+            "shortName": "blueOak100",
+            "spdxId": "BlueOak-1.0.0",
+            "url": "https://spdx.org/licenses/BlueOak-1.0.0.html"
+        },
+        "bola11": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Buena Onda License Agreement 1.1",
+            "redistributable": true,
+            "shortName": "bola11",
+            "url": "https://blitiri.com.ar/p/bola/"
+        },
+        "boost": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Boost Software License 1.0",
+            "redistributable": true,
+            "shortName": "boost",
+            "spdxId": "BSL-1.0",
+            "url": "https://spdx.org/licenses/BSL-1.0.html"
+        },
+        "bsd0": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD Zero Clause License",
+            "redistributable": true,
+            "shortName": "bsd0",
+            "spdxId": "0BSD",
+            "url": "https://spdx.org/licenses/0BSD.html"
+        },
+        "bsd1": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD 1-Clause License",
+            "redistributable": true,
+            "shortName": "bsd1",
+            "spdxId": "BSD-1-Clause",
+            "url": "https://spdx.org/licenses/BSD-1-Clause.html"
+        },
+        "bsd2": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD 2-clause \"Simplified\" License",
+            "redistributable": true,
+            "shortName": "bsd2",
+            "spdxId": "BSD-2-Clause",
+            "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+        },
+        "bsd2Patent": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD-2-Clause Plus Patent License",
+            "redistributable": true,
+            "shortName": "bsd2Patent",
+            "spdxId": "BSD-2-Clause-Patent",
+            "url": "https://spdx.org/licenses/BSD-2-Clause-Patent.html"
+        },
+        "bsd2WithViews": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD 2-Clause with views sentence",
+            "redistributable": true,
+            "shortName": "bsd2WithViews",
+            "spdxId": "BSD-2-Clause-Views",
+            "url": "https://spdx.org/licenses/BSD-2-Clause-Views.html"
+        },
+        "bsd3": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+            "redistributable": true,
+            "shortName": "bsd3",
+            "spdxId": "BSD-3-Clause",
+            "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+        },
+        "bsd3Clear": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD 3-Clause Clear License",
+            "redistributable": true,
+            "shortName": "bsd3Clear",
+            "spdxId": "BSD-3-Clause-Clear",
+            "url": "https://spdx.org/licenses/BSD-3-Clause-Clear.html"
+        },
+        "bsdOriginal": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD 4-clause \"Original\" or \"Old\" License",
+            "redistributable": true,
+            "shortName": "bsdOriginal",
+            "spdxId": "BSD-4-Clause",
+            "url": "https://spdx.org/licenses/BSD-4-Clause.html"
+        },
+        "bsdOriginalShortened": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD 4 Clause Shortened",
+            "redistributable": true,
+            "shortName": "bsdOriginalShortened",
+            "spdxId": "BSD-4-Clause-Shortened",
+            "url": "https://spdx.org/licenses/BSD-4-Clause-Shortened.html"
+        },
+        "bsdOriginalUC": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD 4-Clause University of California-Specific",
+            "redistributable": true,
+            "shortName": "bsdOriginalUC",
+            "spdxId": "BSD-4-Clause-UC",
+            "url": "https://spdx.org/licenses/BSD-4-Clause-UC.html"
+        },
+        "bsdProtection": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "BSD Protection License",
+            "redistributable": true,
+            "shortName": "bsdProtection",
+            "spdxId": "BSD-Protection",
+            "url": "https://spdx.org/licenses/BSD-Protection.html"
+        },
+        "bsl11": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Business Source License 1.1",
+            "redistributable": true,
+            "shortName": "bsl11",
+            "url": "https://mariadb.com/bsl11"
+        },
+        "cal10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Cryptographic Autonomy License version 1.0 (CAL-1.0)",
+            "redistributable": true,
+            "shortName": "cal10",
+            "spdxId": "CAL-1.0",
+            "url": "https://spdx.org/licenses/CAL-1.0.html"
+        },
+        "caldera": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Caldera License",
+            "redistributable": true,
+            "shortName": "caldera",
+            "spdxId": "Caldera",
+            "url": "https://spdx.org/licenses/Caldera.html"
+        },
+        "caossl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Computer Associates Open Source Licence Version 1.0",
+            "redistributable": true,
+            "shortName": "caossl",
+            "url": "http://jxplorer.org/licence.html"
+        },
+        "capec": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Common Attack Pattern Enumeration and Classification",
+            "redistributable": true,
+            "shortName": "capec",
+            "url": "https://capec.mitre.org/about/termsofuse.html"
+        },
+        "cc-by-10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Attribution 1.0",
+            "redistributable": true,
+            "shortName": "cc-by-10",
+            "spdxId": "CC-BY-1.0",
+            "url": "https://spdx.org/licenses/CC-BY-1.0.html"
+        },
+        "cc-by-20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Attribution 2.0",
+            "redistributable": true,
+            "shortName": "cc-by-20",
+            "spdxId": "CC-BY-2.0",
+            "url": "https://spdx.org/licenses/CC-BY-2.0.html"
+        },
+        "cc-by-30": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Attribution 3.0",
+            "redistributable": true,
+            "shortName": "cc-by-30",
+            "spdxId": "CC-BY-3.0",
+            "url": "https://spdx.org/licenses/CC-BY-3.0.html"
+        },
+        "cc-by-40": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Attribution 4.0",
+            "redistributable": true,
+            "shortName": "cc-by-40",
+            "spdxId": "CC-BY-4.0",
+            "url": "https://spdx.org/licenses/CC-BY-4.0.html"
+        },
+        "cc-by-nc-30": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Creative Commons Attribution Non Commercial 3.0 Unported",
+            "redistributable": false,
+            "shortName": "cc-by-nc-30",
+            "spdxId": "CC-BY-NC-3.0",
+            "url": "https://spdx.org/licenses/CC-BY-NC-3.0.html"
+        },
+        "cc-by-nc-40": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
+            "redistributable": false,
+            "shortName": "cc-by-nc-40",
+            "spdxId": "CC-BY-NC-4.0",
+            "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
+        },
+        "cc-by-nc-nd-30": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Creative Commons Attribution Non Commercial No Derivative Works 3.0 Unported",
+            "redistributable": false,
+            "shortName": "cc-by-nc-nd-30",
+            "spdxId": "CC-BY-NC-ND-3.0",
+            "url": "https://spdx.org/licenses/CC-BY-NC-ND-3.0.html"
+        },
+        "cc-by-nc-nd-40": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+            "redistributable": false,
+            "shortName": "cc-by-nc-nd-40",
+            "spdxId": "CC-BY-NC-ND-4.0",
+            "url": "https://spdx.org/licenses/CC-BY-NC-ND-4.0.html"
+        },
+        "cc-by-nc-sa-20": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Creative Commons Attribution Non Commercial Share Alike 2.0",
+            "redistributable": false,
+            "shortName": "cc-by-nc-sa-20",
+            "spdxId": "CC-BY-NC-SA-2.0",
+            "url": "https://spdx.org/licenses/CC-BY-NC-SA-2.0.html"
+        },
+        "cc-by-nc-sa-25": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Creative Commons Attribution Non Commercial Share Alike 2.5",
+            "redistributable": false,
+            "shortName": "cc-by-nc-sa-25",
+            "spdxId": "CC-BY-NC-SA-2.5",
+            "url": "https://spdx.org/licenses/CC-BY-NC-SA-2.5.html"
+        },
+        "cc-by-nc-sa-30": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Creative Commons Attribution Non Commercial Share Alike 3.0",
+            "redistributable": false,
+            "shortName": "cc-by-nc-sa-30",
+            "spdxId": "CC-BY-NC-SA-3.0",
+            "url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0.html"
+        },
+        "cc-by-nc-sa-40": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Creative Commons Attribution Non Commercial Share Alike 4.0",
+            "redistributable": false,
+            "shortName": "cc-by-nc-sa-40",
+            "spdxId": "CC-BY-NC-SA-4.0",
+            "url": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html"
+        },
+        "cc-by-nd-30": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Creative Commons Attribution-No Derivative Works v3.00",
+            "redistributable": false,
+            "shortName": "cc-by-nd-30",
+            "spdxId": "CC-BY-ND-3.0",
+            "url": "https://spdx.org/licenses/CC-BY-ND-3.0.html"
+        },
+        "cc-by-sa-10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Attribution Share Alike 1.0",
+            "redistributable": true,
+            "shortName": "cc-by-sa-10",
+            "spdxId": "CC-BY-SA-1.0",
+            "url": "https://spdx.org/licenses/CC-BY-SA-1.0.html"
+        },
+        "cc-by-sa-20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Attribution Share Alike 2.0",
+            "redistributable": true,
+            "shortName": "cc-by-sa-20",
+            "spdxId": "CC-BY-SA-2.0",
+            "url": "https://spdx.org/licenses/CC-BY-SA-2.0.html"
+        },
+        "cc-by-sa-25": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Attribution Share Alike 2.5",
+            "redistributable": true,
+            "shortName": "cc-by-sa-25",
+            "spdxId": "CC-BY-SA-2.5",
+            "url": "https://spdx.org/licenses/CC-BY-SA-2.5.html"
+        },
+        "cc-by-sa-30": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Attribution Share Alike 3.0",
+            "redistributable": true,
+            "shortName": "cc-by-sa-30",
+            "spdxId": "CC-BY-SA-3.0",
+            "url": "https://spdx.org/licenses/CC-BY-SA-3.0.html"
+        },
+        "cc-by-sa-40": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Attribution Share Alike 4.0",
+            "redistributable": true,
+            "shortName": "cc-by-sa-40",
+            "spdxId": "CC-BY-SA-4.0",
+            "url": "https://spdx.org/licenses/CC-BY-SA-4.0.html"
+        },
+        "cc0": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Creative Commons Zero v1.0 Universal",
+            "redistributable": true,
+            "shortName": "cc0",
+            "spdxId": "CC0-1.0",
+            "url": "https://spdx.org/licenses/CC0-1.0.html"
+        },
+        "cddl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Common Development and Distribution License 1.0",
+            "redistributable": true,
+            "shortName": "cddl",
+            "spdxId": "CDDL-1.0",
+            "url": "https://spdx.org/licenses/CDDL-1.0.html"
+        },
+        "cecill-b": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "CeCILL-B Free Software License Agreement",
+            "redistributable": true,
+            "shortName": "cecill-b",
+            "spdxId": "CECILL-B",
+            "url": "https://spdx.org/licenses/CECILL-B.html"
+        },
+        "cecill-c": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "CeCILL-C Free Software License Agreement",
+            "redistributable": true,
+            "shortName": "cecill-c",
+            "spdxId": "CECILL-C",
+            "url": "https://spdx.org/licenses/CECILL-C.html"
+        },
+        "cecill20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "CeCILL Free Software License Agreement v2.0",
+            "redistributable": true,
+            "shortName": "cecill20",
+            "spdxId": "CECILL-2.0",
+            "url": "https://spdx.org/licenses/CECILL-2.0.html"
+        },
+        "cecill21": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "CeCILL Free Software License Agreement v2.1",
+            "redistributable": true,
+            "shortName": "cecill21",
+            "spdxId": "CECILL-2.1",
+            "url": "https://spdx.org/licenses/CECILL-2.1.html"
+        },
+        "clArtistic": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Clarified Artistic License",
+            "redistributable": true,
+            "shortName": "clArtistic",
+            "spdxId": "ClArtistic",
+            "url": "https://spdx.org/licenses/ClArtistic.html"
+        },
+        "commons-clause": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Commons Clause License",
+            "redistributable": false,
+            "shortName": "commons-clause",
+            "url": "https://commonsclause.com/"
+        },
+        "cpal10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Common Public Attribution License 1.0",
+            "redistributable": true,
+            "shortName": "cpal10",
+            "spdxId": "CPAL-1.0",
+            "url": "https://spdx.org/licenses/CPAL-1.0.html"
+        },
+        "cpl10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Common Public License 1.0",
+            "redistributable": true,
+            "shortName": "cpl10",
+            "spdxId": "CPL-1.0",
+            "url": "https://spdx.org/licenses/CPL-1.0.html"
+        },
+        "curl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "curl License",
+            "redistributable": true,
+            "shortName": "curl",
+            "spdxId": "curl",
+            "url": "https://spdx.org/licenses/curl.html"
+        },
+        "databricks": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Databricks Proprietary License",
+            "redistributable": false,
+            "shortName": "databricks",
+            "url": "https://pypi.org/project/databricks-connect"
+        },
+        "databricks-dbx": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "DataBricks eXtensions aka dbx License",
+            "redistributable": false,
+            "shortName": "databricks-dbx",
+            "url": "https://github.com/databrickslabs/dbx/blob/743b579a4ac44531f764c6e522dbe5a81a7dc0e4/LICENSE"
+        },
+        "doc": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "DOC License",
+            "redistributable": true,
+            "shortName": "doc",
+            "spdxId": "DOC",
+            "url": "https://spdx.org/licenses/DOC.html"
+        },
+        "drl10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Detection Rule License 1.0",
+            "redistributable": true,
+            "shortName": "drl10",
+            "spdxId": "DRL-1.0",
+            "url": "https://spdx.org/licenses/DRL-1.0.html"
+        },
+        "dtoa": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "dtoa License",
+            "redistributable": true,
+            "shortName": "dtoa",
+            "spdxId": "dtoa",
+            "url": "https://spdx.org/licenses/dtoa.html"
+        },
+        "eapl": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "EPSON AVASYS PUBLIC LICENSE",
+            "redistributable": false,
+            "shortName": "eapl",
+            "url": "https://avasys.jp/hp/menu000000700/hpg000000603.htm"
+        },
+        "ecl20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Educational Community License, Version 2.0",
+            "redistributable": true,
+            "shortName": "ECL 2.0",
+            "spdxId": "ECL-2.0",
+            "url": "https://spdx.org/licenses/ECL-2.0.html"
+        },
+        "efl10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Eiffel Forum License v1.0",
+            "redistributable": true,
+            "shortName": "efl10",
+            "spdxId": "EFL-1.0",
+            "url": "https://spdx.org/licenses/EFL-1.0.html"
+        },
+        "efl20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Eiffel Forum License v2.0",
+            "redistributable": true,
+            "shortName": "efl20",
+            "spdxId": "EFL-2.0",
+            "url": "https://spdx.org/licenses/EFL-2.0.html"
+        },
+        "elastic20": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Elastic License 2.0",
+            "redistributable": false,
+            "shortName": "elastic20",
+            "spdxId": "Elastic-2.0",
+            "url": "https://spdx.org/licenses/Elastic-2.0.html"
+        },
+        "epl10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Eclipse Public License 1.0",
+            "redistributable": true,
+            "shortName": "epl10",
+            "spdxId": "EPL-1.0",
+            "url": "https://spdx.org/licenses/EPL-1.0.html"
+        },
+        "epl20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Eclipse Public License 2.0",
+            "redistributable": true,
+            "shortName": "epl20",
+            "spdxId": "EPL-2.0",
+            "url": "https://spdx.org/licenses/EPL-2.0.html"
+        },
+        "epson": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Seiko Epson Corporation Software License Agreement for Linux",
+            "redistributable": false,
+            "shortName": "epson",
+            "url": "https://download.ebz.epson.net/dsc/du/02/eula/global/LINUX_EN.html"
+        },
+        "eupl11": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "European Union Public License 1.1",
+            "redistributable": true,
+            "shortName": "eupl11",
+            "spdxId": "EUPL-1.1",
+            "url": "https://spdx.org/licenses/EUPL-1.1.html"
+        },
+        "eupl12": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "European Union Public License 1.2",
+            "redistributable": true,
+            "shortName": "eupl12",
+            "spdxId": "EUPL-1.2",
+            "url": "https://spdx.org/licenses/EUPL-1.2.html"
+        },
+        "fair": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Fair License",
+            "redistributable": true,
+            "shortName": "fair",
+            "spdxId": "Fair",
+            "url": "https://spdx.org/licenses/Fair.html"
+        },
+        "fairsource09": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Fair Source License, version 0.9",
+            "redistributable": true,
+            "shortName": "fairsource09",
+            "url": "https://fair.io/v0.9.txt"
+        },
+        "fdl11Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Free Documentation License v1.1 only",
+            "redistributable": true,
+            "shortName": "fdl11Only",
+            "spdxId": "GFDL-1.1-only",
+            "url": "https://spdx.org/licenses/GFDL-1.1-only.html"
+        },
+        "fdl11Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Free Documentation License v1.1 or later",
+            "redistributable": true,
+            "shortName": "fdl11Plus",
+            "spdxId": "GFDL-1.1-or-later",
+            "url": "https://spdx.org/licenses/GFDL-1.1-or-later.html"
+        },
+        "fdl12Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Free Documentation License v1.2 only",
+            "redistributable": true,
+            "shortName": "fdl12Only",
+            "spdxId": "GFDL-1.2-only",
+            "url": "https://spdx.org/licenses/GFDL-1.2-only.html"
+        },
+        "fdl12Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Free Documentation License v1.2 or later",
+            "redistributable": true,
+            "shortName": "fdl12Plus",
+            "spdxId": "GFDL-1.2-or-later",
+            "url": "https://spdx.org/licenses/GFDL-1.2-or-later.html"
+        },
+        "fdl13Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Free Documentation License v1.3 only",
+            "redistributable": true,
+            "shortName": "fdl13Only",
+            "spdxId": "GFDL-1.3-only",
+            "url": "https://spdx.org/licenses/GFDL-1.3-only.html"
+        },
+        "fdl13Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Free Documentation License v1.3 or later",
+            "redistributable": true,
+            "shortName": "fdl13Plus",
+            "spdxId": "GFDL-1.3-or-later",
+            "url": "https://spdx.org/licenses/GFDL-1.3-or-later.html"
+        },
+        "ffsl": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Floodgap Free Software License",
+            "redistributable": false,
+            "shortName": "ffsl",
+            "url": "https://www.floodgap.com/software/ffsl/license.html"
+        },
+        "fraunhofer-fdk": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Fraunhofer FDK AAC Codec Library",
+            "redistributable": true,
+            "shortName": "fraunhofer-fdk",
+            "spdxId": "FDK-AAC",
+            "url": "https://spdx.org/licenses/FDK-AAC.html"
+        },
+        "free": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Unspecified free software license",
+            "redistributable": true,
+            "shortName": "free"
+        },
+        "ftl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Freetype Project License",
+            "redistributable": true,
+            "shortName": "ftl",
+            "spdxId": "FTL",
+            "url": "https://spdx.org/licenses/FTL.html"
+        },
+        "g4sl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Geant4 Software License",
+            "redistributable": true,
+            "shortName": "g4sl",
+            "url": "https://geant4.web.cern.ch/geant4/license/LICENSE.html"
+        },
+        "generaluser": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GeneralUser GS License v2.0",
+            "redistributable": true,
+            "shortName": "generaluser",
+            "url": "https://www.schristiancollins.com/generaluser.php"
+        },
+        "geogebra": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "GeoGebra Non-Commercial License Agreement",
+            "redistributable": false,
+            "shortName": "geogebra",
+            "url": "https://www.geogebra.org/license"
+        },
+        "gfl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GUST Font License",
+            "redistributable": true,
+            "shortName": "gfl",
+            "url": "https://www.gust.org.pl/projects/e-foundry/licenses/GUST-FONT-LICENSE.txt"
+        },
+        "gfsl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GUST Font Source License",
+            "redistributable": true,
+            "shortName": "gfsl",
+            "url": "https://www.gust.org.pl/projects/e-foundry/licenses/GUST-FONT-SOURCE-LICENSE.txt"
+        },
+        "giftware": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Giftware License",
+            "redistributable": true,
+            "shortName": "giftware",
+            "spdxId": "Giftware",
+            "url": "https://spdx.org/licenses/Giftware.html"
+        },
+        "gpl1Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License v1.0 only",
+            "redistributable": true,
+            "shortName": "gpl1Only",
+            "spdxId": "GPL-1.0-only",
+            "url": "https://spdx.org/licenses/GPL-1.0-only.html"
+        },
+        "gpl1Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License v1.0 or later",
+            "redistributable": true,
+            "shortName": "gpl1Plus",
+            "spdxId": "GPL-1.0-or-later",
+            "url": "https://spdx.org/licenses/GPL-1.0-or-later.html"
+        },
+        "gpl2": {
+            "deprecated": true,
+            "free": true,
+            "fullName": "GNU General Public License v2.0",
+            "redistributable": true,
+            "shortName": "gpl2",
+            "spdxId": "GPL-2.0",
+            "url": "https://spdx.org/licenses/GPL-2.0.html"
+        },
+        "gpl2Classpath": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+            "redistributable": true,
+            "shortName": "gpl2Classpath",
+            "spdxId": "GPL-2.0-with-classpath-exception",
+            "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+        },
+        "gpl2ClasspathPlus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License v2.0 or later (with Classpath exception)",
+            "redistributable": true,
+            "shortName": "gpl2ClasspathPlus",
+            "url": "https://fedoraproject.org/wiki/Licensing/GPL_Classpath_Exception"
+        },
+        "gpl2Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License v2.0 only",
+            "redistributable": true,
+            "shortName": "gpl2Only",
+            "spdxId": "GPL-2.0-only",
+            "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+        },
+        "gpl2Oss": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License version 2 only (with OSI approved licenses linking exception)",
+            "redistributable": true,
+            "shortName": "gpl2Oss",
+            "url": "https://www.mysql.com/about/legal/licensing/foss-exception"
+        },
+        "gpl2Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License v2.0 or later",
+            "redistributable": true,
+            "shortName": "gpl2Plus",
+            "spdxId": "GPL-2.0-or-later",
+            "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+        },
+        "gpl3": {
+            "deprecated": true,
+            "free": true,
+            "fullName": "GNU General Public License v3.0",
+            "redistributable": true,
+            "shortName": "gpl3",
+            "spdxId": "GPL-3.0",
+            "url": "https://spdx.org/licenses/GPL-3.0.html"
+        },
+        "gpl3ClasspathPlus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License v3.0 or later (with Classpath exception)",
+            "redistributable": true,
+            "shortName": "gpl3ClasspathPlus",
+            "url": "https://fedoraproject.org/wiki/Licensing/GPL_Classpath_Exception"
+        },
+        "gpl3Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License v3.0 only",
+            "redistributable": true,
+            "shortName": "gpl3Only",
+            "spdxId": "GPL-3.0-only",
+            "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+        },
+        "gpl3Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU General Public License v3.0 or later",
+            "redistributable": true,
+            "shortName": "gpl3Plus",
+            "spdxId": "GPL-3.0-or-later",
+            "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+        },
+        "hl3": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Hippocratic License v3.0",
+            "redistributable": true,
+            "shortName": "hl3",
+            "url": "https://firstdonoharm.dev/version/3/0/core.txt"
+        },
+        "hpnd": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Historic Permission Notice and Disclaimer",
+            "redistributable": true,
+            "shortName": "hpnd",
+            "spdxId": "HPND",
+            "url": "https://spdx.org/licenses/HPND.html"
+        },
+        "hpndSellVariant": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Historical Permission Notice and Disclaimer - sell variant",
+            "redistributable": true,
+            "shortName": "hpndSellVariant",
+            "spdxId": "HPND-sell-variant",
+            "url": "https://spdx.org/licenses/HPND-sell-variant.html"
+        },
+        "hpndUc": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Historical Permission Notice and Disclaimer - University of California variant",
+            "redistributable": true,
+            "shortName": "hpndUc",
+            "spdxId": "HPND-UC",
+            "url": "https://spdx.org/licenses/HPND-UC.html"
+        },
+        "iasl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "iASL",
+            "redistributable": true,
+            "shortName": "iasl",
+            "spdxId": "Intel-ACPI",
+            "url": "https://spdx.org/licenses/Intel-ACPI.html"
+        },
+        "icu": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "ICU",
+            "redistributable": true,
+            "shortName": "icu",
+            "spdxId": "ICU",
+            "url": "https://spdx.org/licenses/ICU.html"
+        },
+        "ijg": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Independent JPEG Group License",
+            "redistributable": true,
+            "shortName": "ijg",
+            "spdxId": "IJG",
+            "url": "https://spdx.org/licenses/IJG.html"
+        },
+        "imagemagick": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "ImageMagick License",
+            "redistributable": true,
+            "shortName": "imagemagick",
+            "spdxId": "ImageMagick",
+            "url": "https://spdx.org/licenses/ImageMagick.html"
+        },
+        "imlib2": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Imlib2 License",
+            "redistributable": true,
+            "shortName": "imlib2",
+            "spdxId": "Imlib2",
+            "url": "https://spdx.org/licenses/Imlib2.html"
+        },
+        "info-zip": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Info-ZIP License",
+            "redistributable": true,
+            "shortName": "info-zip",
+            "spdxId": "Info-ZIP",
+            "url": "https://spdx.org/licenses/Info-ZIP.html"
+        },
+        "inria-compcert": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "INRIA Non-Commercial License Agreement for the CompCert verified compiler",
+            "redistributable": false,
+            "shortName": "inria-compcert",
+            "url": "https://compcert.org/doc/LICENSE.txt"
+        },
+        "inria-icesl": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "End User License Agreement for IceSL Software",
+            "redistributable": false,
+            "shortName": "inria-icesl",
+            "url": "https://icesl.loria.fr/assets/pdf/EULA_IceSL_binary.pdf"
+        },
+        "inria-zelus": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "INRIA Non-Commercial License Agreement for the Zélus compiler",
+            "redistributable": false,
+            "shortName": "inria-zelus",
+            "url": "https://github.com/INRIA/zelus/raw/829f2b97cba93b0543a9ca0272269e6b8fdad356/LICENSE"
+        },
+        "ipa": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "IPA Font License",
+            "redistributable": true,
+            "shortName": "ipa",
+            "spdxId": "IPA",
+            "url": "https://spdx.org/licenses/IPA.html"
+        },
+        "ipl10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "IBM Public License v1.0",
+            "redistributable": true,
+            "shortName": "ipl10",
+            "spdxId": "IPL-1.0",
+            "url": "https://spdx.org/licenses/IPL-1.0.html"
+        },
+        "isc": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "ISC License",
+            "redistributable": true,
+            "shortName": "isc",
+            "spdxId": "ISC",
+            "url": "https://spdx.org/licenses/ISC.html"
+        },
+        "issl": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Intel Simplified Software License",
+            "redistributable": false,
+            "shortName": "issl",
+            "url": "https://software.intel.com/en-us/license/intel-simplified-software-license"
+        },
+        "knuth": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Knuth CTAN License",
+            "redistributable": true,
+            "shortName": "knuth",
+            "spdxId": "Knuth-CTAN",
+            "url": "https://spdx.org/licenses/Knuth-CTAN.html"
+        },
+        "lal12": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Licence Art Libre 1.2",
+            "redistributable": true,
+            "shortName": "lal12",
+            "spdxId": "LAL-1.2",
+            "url": "https://spdx.org/licenses/LAL-1.2.html"
+        },
+        "lal13": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Licence Art Libre 1.3",
+            "redistributable": true,
+            "shortName": "lal13",
+            "spdxId": "LAL-1.3",
+            "url": "https://spdx.org/licenses/LAL-1.3.html"
+        },
+        "lens": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Lens Terms of Service Agreement",
+            "redistributable": false,
+            "shortName": "lens",
+            "url": "https://k8slens.dev/licenses/tos"
+        },
+        "lgpl2": {
+            "deprecated": true,
+            "free": true,
+            "fullName": "GNU Library General Public License v2",
+            "redistributable": true,
+            "shortName": "lgpl2",
+            "spdxId": "LGPL-2.0",
+            "url": "https://spdx.org/licenses/LGPL-2.0.html"
+        },
+        "lgpl21": {
+            "deprecated": true,
+            "free": true,
+            "fullName": "GNU Lesser General Public License v2.1",
+            "redistributable": true,
+            "shortName": "lgpl21",
+            "spdxId": "LGPL-2.1",
+            "url": "https://spdx.org/licenses/LGPL-2.1.html"
+        },
+        "lgpl21Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Lesser General Public License v2.1 only",
+            "redistributable": true,
+            "shortName": "lgpl21Only",
+            "spdxId": "LGPL-2.1-only",
+            "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+        },
+        "lgpl21Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Lesser General Public License v2.1 or later",
+            "redistributable": true,
+            "shortName": "lgpl21Plus",
+            "spdxId": "LGPL-2.1-or-later",
+            "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+        },
+        "lgpl2Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Library General Public License v2 only",
+            "redistributable": true,
+            "shortName": "lgpl2Only",
+            "spdxId": "LGPL-2.0-only",
+            "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+        },
+        "lgpl2Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Library General Public License v2 or later",
+            "redistributable": true,
+            "shortName": "lgpl2Plus",
+            "spdxId": "LGPL-2.0-or-later",
+            "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+        },
+        "lgpl3": {
+            "deprecated": true,
+            "free": true,
+            "fullName": "GNU Lesser General Public License v3.0",
+            "redistributable": true,
+            "shortName": "lgpl3",
+            "spdxId": "LGPL-3.0",
+            "url": "https://spdx.org/licenses/LGPL-3.0.html"
+        },
+        "lgpl3Only": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Lesser General Public License v3.0 only",
+            "redistributable": true,
+            "shortName": "lgpl3Only",
+            "spdxId": "LGPL-3.0-only",
+            "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+        },
+        "lgpl3Plus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "GNU Lesser General Public License v3.0 or later",
+            "redistributable": true,
+            "shortName": "lgpl3Plus",
+            "spdxId": "LGPL-3.0-or-later",
+            "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+        },
+        "lgpllr": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Lesser General Public License For Linguistic Resources",
+            "redistributable": true,
+            "shortName": "lgpllr",
+            "spdxId": "LGPLLR",
+            "url": "https://spdx.org/licenses/LGPLLR.html"
+        },
+        "libpng": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "libpng License",
+            "redistributable": true,
+            "shortName": "libpng",
+            "spdxId": "Libpng",
+            "url": "https://spdx.org/licenses/Libpng.html"
+        },
+        "libpng2": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "PNG Reference Library version 2",
+            "redistributable": true,
+            "shortName": "libpng2",
+            "spdxId": "libpng-2.0",
+            "url": "https://spdx.org/licenses/libpng-2.0.html"
+        },
+        "libssh2": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "libssh2 License",
+            "redistributable": true,
+            "shortName": "libssh2",
+            "url": "https://www.libssh2.org/license.html"
+        },
+        "libtiff": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "libtiff License",
+            "redistributable": true,
+            "shortName": "libtiff",
+            "spdxId": "libtiff",
+            "url": "https://spdx.org/licenses/libtiff.html"
+        },
+        "llgpl21": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Lisp LGPL; GNU Lesser General Public License version 2.1 with Franz Inc. preamble for clarification of LGPL terms in context of Lisp",
+            "redistributable": true,
+            "shortName": "llgpl21",
+            "url": "https://opensource.franz.com/preamble.html"
+        },
+        "lpl-102": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Lucent Public License v1.02",
+            "redistributable": true,
+            "shortName": "lpl-102",
+            "spdxId": "LPL-1.02",
+            "url": "https://spdx.org/licenses/LPL-1.02.html"
+        },
+        "lppl1": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "LaTeX Project Public License v1.0",
+            "redistributable": true,
+            "shortName": "lppl1",
+            "spdxId": "LPPL-1.0",
+            "url": "https://spdx.org/licenses/LPPL-1.0.html"
+        },
+        "lppl12": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "LaTeX Project Public License v1.2",
+            "redistributable": true,
+            "shortName": "lppl12",
+            "spdxId": "LPPL-1.2",
+            "url": "https://spdx.org/licenses/LPPL-1.2.html"
+        },
+        "lppl13a": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "LaTeX Project Public License v1.3a",
+            "redistributable": true,
+            "shortName": "lppl13a",
+            "spdxId": "LPPL-1.3a",
+            "url": "https://spdx.org/licenses/LPPL-1.3a.html"
+        },
+        "lppl13c": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "LaTeX Project Public License v1.3c",
+            "redistributable": true,
+            "shortName": "lppl13c",
+            "spdxId": "LPPL-1.3c",
+            "url": "https://spdx.org/licenses/LPPL-1.3c.html"
+        },
+        "miros": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "MirOS License",
+            "redistributable": true,
+            "shortName": "miros",
+            "spdxId": "MirOS",
+            "url": "https://spdx.org/licenses/MirOS.html"
+        },
+        "mit": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "MIT License",
+            "redistributable": true,
+            "shortName": "mit",
+            "spdxId": "MIT",
+            "url": "https://spdx.org/licenses/MIT.html"
+        },
+        "mit-feh": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "feh License",
+            "redistributable": true,
+            "shortName": "mit-feh",
+            "spdxId": "MIT-feh",
+            "url": "https://spdx.org/licenses/MIT-feh.html"
+        },
+        "mit0": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "MIT No Attribution",
+            "redistributable": true,
+            "shortName": "mit0",
+            "spdxId": "MIT-0",
+            "url": "https://spdx.org/licenses/MIT-0.html"
+        },
+        "mitAdvertising": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Enlightenment License (e16)",
+            "redistributable": true,
+            "shortName": "mitAdvertising",
+            "spdxId": "MIT-advertising",
+            "url": "https://spdx.org/licenses/MIT-advertising.html"
+        },
+        "mpl10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Mozilla Public License 1.0",
+            "redistributable": true,
+            "shortName": "mpl10",
+            "spdxId": "MPL-1.0",
+            "url": "https://spdx.org/licenses/MPL-1.0.html"
+        },
+        "mpl11": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Mozilla Public License 1.1",
+            "redistributable": true,
+            "shortName": "mpl11",
+            "spdxId": "MPL-1.1",
+            "url": "https://spdx.org/licenses/MPL-1.1.html"
+        },
+        "mpl20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Mozilla Public License 2.0",
+            "redistributable": true,
+            "shortName": "mpl20",
+            "spdxId": "MPL-2.0",
+            "url": "https://spdx.org/licenses/MPL-2.0.html"
+        },
+        "mplus": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "M+ Font License",
+            "redistributable": true,
+            "shortName": "mplus",
+            "spdxId": "mplus",
+            "url": "https://spdx.org/licenses/mplus.html"
+        },
+        "mspl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Microsoft Public License",
+            "redistributable": true,
+            "shortName": "mspl",
+            "spdxId": "MS-PL",
+            "url": "https://spdx.org/licenses/MS-PL.html"
+        },
+        "mulan-psl2": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Mulan Permissive Software License, Version 2",
+            "redistributable": true,
+            "shortName": "mulan-psl2",
+            "spdxId": "MulanPSL-2.0",
+            "url": "https://spdx.org/licenses/MulanPSL-2.0.html"
+        },
+        "nasa13": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "NASA Open Source Agreement 1.3",
+            "redistributable": false,
+            "shortName": "nasa13",
+            "spdxId": "NASA-1.3",
+            "url": "https://spdx.org/licenses/NASA-1.3.html"
+        },
+        "ncsa": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "University of Illinois/NCSA Open Source License",
+            "redistributable": true,
+            "shortName": "ncsa",
+            "spdxId": "NCSA",
+            "url": "https://spdx.org/licenses/NCSA.html"
+        },
+        "ncul1": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Netdata Cloud UI License v1.0",
+            "redistributable": true,
+            "shortName": "ncul1",
+            "spdxId": "NCUL1",
+            "url": "https://spdx.org/licenses/NCUL1.html"
+        },
+        "nistSoftware": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "NIST Software License",
+            "redistributable": true,
+            "shortName": "nistSoftware",
+            "spdxId": "NIST-Software",
+            "url": "https://spdx.org/licenses/NIST-Software.html"
+        },
+        "nlpl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "No Limit Public License",
+            "redistributable": true,
+            "shortName": "nlpl",
+            "spdxId": "NLPL",
+            "url": "https://spdx.org/licenses/NLPL.html"
+        },
+        "nposl3": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Non-Profit Open Software License 3.0",
+            "redistributable": true,
+            "shortName": "nposl3",
+            "spdxId": "NPOSL-3.0",
+            "url": "https://spdx.org/licenses/NPOSL-3.0.html"
+        },
+        "nvidiaCuda": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "CUDA Toolkit End User License Agreement (EULA)",
+            "redistributable": false,
+            "shortName": "CUDA EULA",
+            "url": "https://docs.nvidia.com/cuda/eula/index.html#cuda-toolkit-supplement-license-agreement"
+        },
+        "nvidiaCudaRedist": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "CUDA Toolkit End User License Agreement (EULA)",
+            "redistributable": true,
+            "shortName": "CUDA EULA",
+            "url": "https://docs.nvidia.com/cuda/eula/index.html#cuda-toolkit-supplement-license-agreement"
+        },
+        "obsidian": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Obsidian End User Agreement",
+            "redistributable": false,
+            "shortName": "obsidian",
+            "url": "https://obsidian.md/eula"
+        },
+        "ocamlLgplLinkingException": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "OCaml LGPL Linking Exception",
+            "redistributable": true,
+            "shortName": "ocamlLgplLinkingException",
+            "spdxId": "OCaml-LGPL-linking-exception",
+            "url": "https://spdx.org/licenses/OCaml-LGPL-linking-exception.html"
+        },
+        "ocamlpro_nc": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "OCamlPro Non Commercial license version 1",
+            "redistributable": false,
+            "shortName": "ocamlpro_nc",
+            "url": "https://alt-ergo.ocamlpro.com/http/alt-ergo-2.2.0/OCamlPro-Non-Commercial-License.pdf"
+        },
+        "odbl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Open Data Commons Open Database License v1.0",
+            "redistributable": true,
+            "shortName": "odbl",
+            "spdxId": "ODbL-1.0",
+            "url": "https://spdx.org/licenses/ODbL-1.0.html"
+        },
+        "ofl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "SIL Open Font License 1.1",
+            "redistributable": true,
+            "shortName": "ofl",
+            "spdxId": "OFL-1.1",
+            "url": "https://spdx.org/licenses/OFL-1.1.html"
+        },
+        "oml": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Open Market License",
+            "redistributable": true,
+            "shortName": "oml",
+            "spdxId": "OML",
+            "url": "https://spdx.org/licenses/OML.html"
+        },
+        "openldap": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Open LDAP Public License v2.8",
+            "redistributable": true,
+            "shortName": "openldap",
+            "spdxId": "OLDAP-2.8",
+            "url": "https://spdx.org/licenses/OLDAP-2.8.html"
+        },
+        "openssl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "OpenSSL License",
+            "redistributable": true,
+            "shortName": "openssl",
+            "spdxId": "OpenSSL",
+            "url": "https://spdx.org/licenses/OpenSSL.html"
+        },
+        "opubl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Open Publication License v1.0",
+            "redistributable": true,
+            "shortName": "opubl",
+            "spdxId": "OPUBL-1.0",
+            "url": "https://spdx.org/licenses/OPUBL-1.0.html"
+        },
+        "osl2": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Open Software License 2.0",
+            "redistributable": true,
+            "shortName": "osl2",
+            "spdxId": "OSL-2.0",
+            "url": "https://spdx.org/licenses/OSL-2.0.html"
+        },
+        "osl21": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Open Software License 2.1",
+            "redistributable": true,
+            "shortName": "osl21",
+            "spdxId": "OSL-2.1",
+            "url": "https://spdx.org/licenses/OSL-2.1.html"
+        },
+        "osl3": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Open Software License 3.0",
+            "redistributable": true,
+            "shortName": "osl3",
+            "spdxId": "OSL-3.0",
+            "url": "https://spdx.org/licenses/OSL-3.0.html"
+        },
+        "parity70": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Parity Public License 7.0.0",
+            "redistributable": true,
+            "shortName": "parity70",
+            "spdxId": "Parity-7.0.0",
+            "url": "https://spdx.org/licenses/Parity-7.0.0.html"
+        },
+        "php301": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "PHP License v3.01",
+            "redistributable": true,
+            "shortName": "php301",
+            "spdxId": "PHP-3.01",
+            "url": "https://spdx.org/licenses/PHP-3.01.html"
+        },
+        "postgresql": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "PostgreSQL License",
+            "redistributable": true,
+            "shortName": "postgresql",
+            "spdxId": "PostgreSQL",
+            "url": "https://spdx.org/licenses/PostgreSQL.html"
+        },
+        "postman": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Postman EULA",
+            "redistributable": false,
+            "shortName": "postman",
+            "url": "https://www.getpostman.com/licenses/postman_base_app"
+        },
+        "prosperity30": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Prosperity-3.0.0",
+            "redistributable": false,
+            "shortName": "prosperity30",
+            "url": "https://prosperitylicense.com/versions/3.0.0.html"
+        },
+        "psfl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Python Software Foundation License version 2",
+            "redistributable": true,
+            "shortName": "psfl",
+            "spdxId": "Python-2.0",
+            "url": "https://spdx.org/licenses/Python-2.0.html"
+        },
+        "publicDomain": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Public Domain",
+            "redistributable": true,
+            "shortName": "publicDomain"
+        },
+        "purdueBsd": {
+            "deprecated": false,
+            "free": true,
+            "fullName": " Purdue BSD-Style License",
+            "redistributable": true,
+            "shortName": "purdueBsd",
+            "url": "https://enterprise.dejacode.com/licenses/public/purdue-bsd"
+        },
+        "qhull": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Qhull License",
+            "redistributable": true,
+            "shortName": "qhull",
+            "spdxId": "Qhull",
+            "url": "https://spdx.org/licenses/Qhull.html"
+        },
+        "qpl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Q Public License 1.0",
+            "redistributable": true,
+            "shortName": "qpl",
+            "spdxId": "QPL-1.0",
+            "url": "https://spdx.org/licenses/QPL-1.0.html"
+        },
+        "qwt": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Qwt License, Version 1.0",
+            "redistributable": true,
+            "shortName": "qwt",
+            "url": "https://qwt.sourceforge.io/qwtlicense.html"
+        },
+        "ruby": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Ruby License",
+            "redistributable": true,
+            "shortName": "ruby",
+            "spdxId": "Ruby",
+            "url": "https://spdx.org/licenses/Ruby.html"
+        },
+        "sendmail": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Sendmail License",
+            "redistributable": true,
+            "shortName": "sendmail",
+            "spdxId": "Sendmail",
+            "url": "https://spdx.org/licenses/Sendmail.html"
+        },
+        "sgi-b-20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "SGI Free Software License B v2.0",
+            "redistributable": true,
+            "shortName": "sgi-b-20",
+            "spdxId": "SGI-B-2.0",
+            "url": "https://spdx.org/licenses/SGI-B-2.0.html"
+        },
+        "sgmlug": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "SGML UG SGML Parser Materials license",
+            "redistributable": true,
+            "shortName": "sgmlug"
+        },
+        "sleepycat": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Sleepycat License",
+            "redistributable": true,
+            "shortName": "sleepycat",
+            "spdxId": "Sleepycat",
+            "url": "https://spdx.org/licenses/Sleepycat.html"
+        },
+        "smail": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "SMAIL General Public License",
+            "redistributable": true,
+            "shortName": "smail",
+            "url": "https://sources.debian.org/copyright/license/debianutils/4.9.1/"
+        },
+        "smlnj": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Standard ML of New Jersey License",
+            "redistributable": true,
+            "shortName": "smlnj",
+            "spdxId": "SMLNJ",
+            "url": "https://spdx.org/licenses/SMLNJ.html"
+        },
+        "sspl": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Server Side Public License",
+            "redistributable": true,
+            "shortName": "SSPL",
+            "url": "https://www.mongodb.com/licensing/server-side-public-license"
+        },
+        "stk": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Synthesis Tool Kit 4.3",
+            "redistributable": true,
+            "shortName": "stk",
+            "url": "https://github.com/thestk/stk/blob/master/LICENSE"
+        },
+        "sudo": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Sudo License (ISC-style)",
+            "redistributable": true,
+            "shortName": "sudo",
+            "url": "https://www.sudo.ws/about/license/"
+        },
+        "sustainableUse": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Sustainable Use License",
+            "redistributable": false,
+            "shortName": "sustainable",
+            "url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md"
+        },
+        "tcltk": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "TCL/TK License",
+            "redistributable": true,
+            "shortName": "tcltk",
+            "spdxId": "TCL",
+            "url": "https://spdx.org/licenses/TCL.html"
+        },
+        "tsl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Timescale License Agreegment",
+            "redistributable": true,
+            "shortName": "TSL",
+            "unfree": true,
+            "url": "https://github.com/timescale/timescaledb/blob/main/tsl/LICENSE-TIMESCALE"
+        },
+        "ucd": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Unicode Character Database License",
+            "redistributable": true,
+            "shortName": "ucd",
+            "url": "https://fedoraproject.org/wiki/Licensing:UCD"
+        },
+        "ufl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Ubuntu Font License 1.0",
+            "redistributable": true,
+            "shortName": "ufl",
+            "url": "https://ubuntu.com/legal/font-licence"
+        },
+        "unfree": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Unfree",
+            "redistributable": false,
+            "shortName": "unfree"
+        },
+        "unfreeRedistributable": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Unfree redistributable",
+            "redistributable": true,
+            "shortName": "unfreeRedistributable"
+        },
+        "unfreeRedistributableFirmware": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Unfree redistributable firmware",
+            "redistributable": true,
+            "shortName": "unfreeRedistributableFirmware"
+        },
+        "unicode-30": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Unicode License v3",
+            "redistributable": true,
+            "shortName": "unicode-30",
+            "spdxId": "Unicode-3.0",
+            "url": "https://spdx.org/licenses/Unicode-3.0.html"
+        },
+        "unicode-dfs-2015": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Unicode License Agreement - Data Files and Software (2015)",
+            "redistributable": true,
+            "shortName": "unicode-dfs-2015",
+            "spdxId": "Unicode-DFS-2015",
+            "url": "https://spdx.org/licenses/Unicode-DFS-2015.html"
+        },
+        "unicode-dfs-2016": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Unicode License Agreement - Data Files and Software (2016)",
+            "redistributable": true,
+            "shortName": "unicode-dfs-2016",
+            "spdxId": "Unicode-DFS-2016",
+            "url": "https://spdx.org/licenses/Unicode-DFS-2016.html"
+        },
+        "unlicense": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "The Unlicense",
+            "redistributable": true,
+            "shortName": "unlicense",
+            "spdxId": "Unlicense",
+            "url": "https://spdx.org/licenses/Unlicense.html"
+        },
+        "upl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Universal Permissive License",
+            "redistributable": true,
+            "shortName": "upl",
+            "spdxId": "UPL-1.0",
+            "url": "https://spdx.org/licenses/UPL-1.0.html"
+        },
+        "vim": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Vim License",
+            "redistributable": true,
+            "shortName": "vim",
+            "spdxId": "Vim",
+            "url": "https://spdx.org/licenses/Vim.html"
+        },
+        "virtualbox-puel": {
+            "deprecated": false,
+            "free": false,
+            "fullName": "Oracle VM VirtualBox Extension Pack Personal Use and Evaluation License (PUEL)",
+            "redistributable": false,
+            "shortName": "virtualbox-puel",
+            "url": "https://www.virtualbox.org/wiki/VirtualBox_PUEL"
+        },
+        "vol-sl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Volatility Software License, Version 1.0",
+            "redistributable": true,
+            "shortName": "vol-sl",
+            "url": "https://www.volatilityfoundation.org/license/vsl-v1.0"
+        },
+        "vsl10": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Vovida Software License v1.0",
+            "redistributable": true,
+            "shortName": "vsl10",
+            "spdxId": "VSL-1.0",
+            "url": "https://spdx.org/licenses/VSL-1.0.html"
+        },
+        "w3c": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "W3C Software Notice and License",
+            "redistributable": true,
+            "shortName": "w3c",
+            "spdxId": "W3C",
+            "url": "https://spdx.org/licenses/W3C.html"
+        },
+        "wadalab": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Wadalab Font License",
+            "redistributable": true,
+            "shortName": "wadalab",
+            "url": "https://fedoraproject.org/wiki/Licensing:Wadalab?rd=Licensing/Wadalab"
+        },
+        "watcom": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Sybase Open Watcom Public License 1.0",
+            "redistributable": true,
+            "shortName": "watcom",
+            "spdxId": "Watcom-1.0",
+            "url": "https://spdx.org/licenses/Watcom-1.0.html"
+        },
+        "wtfpl": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Do What The F*ck You Want To Public License",
+            "redistributable": true,
+            "shortName": "wtfpl",
+            "spdxId": "WTFPL",
+            "url": "https://spdx.org/licenses/WTFPL.html"
+        },
+        "wxWindows": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "wxWindows Library Licence, Version 3.1",
+            "redistributable": true,
+            "shortName": "wxWindows",
+            "spdxId": "wxWindows",
+            "url": "https://spdx.org/licenses/wxWindows.html"
+        },
+        "x11": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "X11 License",
+            "redistributable": true,
+            "shortName": "x11",
+            "spdxId": "X11",
+            "url": "https://spdx.org/licenses/X11.html"
+        },
+        "xfig": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "xfig",
+            "redistributable": true,
+            "shortName": "xfig",
+            "spdxId": "Xfig",
+            "url": "https://spdx.org/licenses/Xfig.html"
+        },
+        "xinetd": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "xinetd License",
+            "redistributable": true,
+            "shortName": "xinetd",
+            "spdxId": "xinetd",
+            "url": "https://spdx.org/licenses/xinetd.html"
+        },
+        "xskat": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "XSkat License",
+            "redistributable": true,
+            "shortName": "xskat",
+            "spdxId": "XSkat",
+            "url": "https://spdx.org/licenses/XSkat.html"
+        },
+        "zlib": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "zlib License",
+            "redistributable": true,
+            "shortName": "zlib",
+            "spdxId": "Zlib",
+            "url": "https://spdx.org/licenses/Zlib.html"
+        },
+        "zpl20": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Zope Public License 2.0",
+            "redistributable": true,
+            "shortName": "zpl20",
+            "spdxId": "ZPL-2.0",
+            "url": "https://spdx.org/licenses/ZPL-2.0.html"
+        },
+        "zpl21": {
+            "deprecated": false,
+            "free": true,
+            "fullName": "Zope Public License 2.1",
+            "redistributable": true,
+            "shortName": "zpl21",
+            "spdxId": "ZPL-2.1",
+            "url": "https://spdx.org/licenses/ZPL-2.1.html"
+        }
+    }
 }
