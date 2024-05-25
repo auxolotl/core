@@ -6,8 +6,8 @@
 let
   loadStatic = (folder:
     {
-      setup        = builtins.fromJSON ( builtins.readFile  "${folder}/static/setup.json"         );
-      meta         = builtins.fromJSON ( builtins.readFile  "${folder}/static/meta.json"          );
+      setup        = builtins.fromTOML ( builtins.readFile  "${folder}/static/setup.toml"         );
+      meta         = builtins.fromTOML ( builtins.readFile  "${folder}/static/meta.toml"          );
     }
   );
   static = loadStatic ../.;
