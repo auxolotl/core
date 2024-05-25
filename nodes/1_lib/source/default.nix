@@ -64,6 +64,7 @@ let
     fileset = callLibs ./fileset;
     sources = callLibs ./sources.nix;
 
+    # TODO: these are not the same as system.platform, we should probably try and unify them
     # back-compat aliases
     platforms = self.systems.doubles;
 
