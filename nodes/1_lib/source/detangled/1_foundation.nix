@@ -1,5 +1,5 @@
 # 
-# foundation contains functions that only depend on builtins or themself
+# foundation contains functions that only depend on builtins or themself (no inter-dependence or ordering)
 # 
 let
   loadStatic = (folder:
@@ -402,7 +402,7 @@ let
 
     : 2\. Function argument
   */
-  or = x: y: x || y;
+  logicalOr = x: y: x || y;
 
   /**
     boolean “and”
@@ -580,7 +580,7 @@ in
     const           = const;
     pipe            = pipe;
     concat          = concat;
-    or              = or;
+    logicalOr       = logicalOr; # cant use "or" directly because it's a keyword
     and             = and;
     xor             = xor;
     bitNot          = bitNot;
