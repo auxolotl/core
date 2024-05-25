@@ -11,13 +11,22 @@ let
     }
   );
   static = loadStatic ../.;
+  untangledLib = {
+    # constants
+    sourceTypes  = static.setup.sourceTypes;
+    licenses     = static.setup.licenses;
+    maintainers  = static.setup.maintainers;
+    teams        = static.setup.teams;
+    
+    builtins = builtins;# just to be overridable
+    loadStatic = loadStatic;
+  };
+  
   inherit (import ./fixed-points.nix { inherit lib; }) makeExtensible;
 
   lib = makeExtensible (self: let
     callLibs = file: import file { lib = self; };
-  in {
-    builtins = builtins;
-    
+  in untangledLib // {
     # often used, or depending on very little
     trivial = callLibs ./trivial.nix;
     fixedPoints = callLibs ./fixed-points.nix;
@@ -31,8 +40,6 @@ let
     # packaging
     customisation = callLibs ./customisation.nix;
     derivations = callLibs ./derivations.nix;
-    maintainers = static.setup.maintainers;
-    teams = static.setup.teams;
     meta = callLibs ./meta.nix;
     versions = callLibs ./versions.nix;
 
@@ -42,8 +49,6 @@ let
     types = callLibs ./types.nix;
 
     # constants
-    licenses = static.setup.licenses;
-    sourceTypes = static.setup.sourceTypes;
     systems = callLibs ./systems;
 
     # serialization
@@ -163,7 +168,5 @@ let
       runTests testAllTrue;
     inherit (self.versions)
       splitVersion;
-    
-    loadStatic = loadStatic;
   });
 in lib
