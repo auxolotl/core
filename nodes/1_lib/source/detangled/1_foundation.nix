@@ -153,6 +153,18 @@ let
       __functionArgs = args;
     };
   
+  # See https://github.com/NixOS/nix/issues/749. Eventually we'd like these
+  # to expand to Nix builtins that carry metadata so that Nix can filter out
+  # the INFO messages without parsing the message string.
+  #
+  # Usage:
+  # {
+  #   foo = lib.warn "foo is deprecated" oldFoo;
+  #   bar = lib.warnIf (bar == "") "Empty bar is deprecated" bar;
+  # }
+  #
+  # TODO: figure out a clever way to integrate location information from
+  # something like __unsafeGetAttrPos.
   /**
     Print a warning before returning the second argument. This function behaves
     like `builtins.trace`, but requires a string message and formats it as a

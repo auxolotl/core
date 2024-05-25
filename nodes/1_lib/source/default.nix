@@ -4,11 +4,11 @@
  * for new functions in `./tests.nix`.
  */
 let
-  foundation = import ./detangled/1_foundation.nix;
-  fixedPoints = import ./detangled/2_fixed-points.nix;
+  foundation  = import ./detangled/1_foundation.nix;
+  static      = import ./detangled/2_static.nix;
+  fixedPoints = import ./detangled/3_fixed-points.nix;
 in
   let
-    static = foundation.loadStatic ../.;
     untangledBase = {
       # constants
       sourceTypes  = static.setup.sourceTypes;
