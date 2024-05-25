@@ -64,6 +64,35 @@ let
   );
   
   /**
+    Reverse the order of the elements of a list.
+
+    # Inputs
+
+    `xs`
+
+    : 1\. Function argument
+
+    # Type
+
+    ```
+    reverseList :: [a] -> [a]
+    ```
+
+    # Examples
+    :::{.example}
+    ## `lib.lists.reverseList` usage example
+
+    ```nix
+    reverseList [ "b" "o" "j" ]
+    => [ "j" "o" "b" ]
+    ```
+
+    :::
+  */
+  reverseList = xs:
+    let l = builtins.length xs; in builtins.genList (n: builtins.elemAt xs (l - n - 1)) l;
+  
+  /**
     Check whether something is a function or something
     annotated with function args.
 
@@ -156,6 +185,7 @@ in
   {
     loadStatic      = loadStatic;
     foldr           = foldr;
+    reverseList     = reverseList;
     isFunction      = isFunction;
     functionArgs    = functionArgs;
     setFunctionArgs = setFunctionArgs;
