@@ -4,7 +4,7 @@
 # this just runs tests/check-eval.nix
 # 
 result="$(
-    echo 'import ./nodes/1_lib/source/tests/check-eval.nix' | nix repl 2>&1 | grep -v 'Inappropriate ioctl for device'
+    echo 'import ./nodes/1_lib/source/tests/check-eval.nix' | nix repl --show-trace 2>&1 | grep -v 'Inappropriate ioctl for device'
 )"
 expected='Welcome to Nix 2.18.1. Type :? for help.
 
@@ -13,4 +13,7 @@ expected='Welcome to Nix 2.18.1. Type :? for help.
 if [ "$(echo "$result")" = "$expected" ]
 then
     echo test passed
+else
+    echo "test failed"
+    echo "$result"
 fi
