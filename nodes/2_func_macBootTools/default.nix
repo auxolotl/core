@@ -34,7 +34,7 @@ in
                         "/usr/lib/libSystem.B.dylib"
                         "/usr/lib/system/libunc.dylib" # This dependency is "hidden", so our scanning code doesn't pick it up
                     ];
-                    # TODO: test if these work
+                    # TODO: test if these work. Note: if youre reading this years later, remove this and the commented out code below
                     # __contentAddressed = true;
                     # outputHashAlgo = "sha256";
                     # outputHashMode = "recursive";
