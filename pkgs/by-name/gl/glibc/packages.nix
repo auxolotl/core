@@ -16,12 +16,11 @@ with pkgs;
   # Being redundant to avoid cycles on boot. TODO: find a better way
   glibcCross = callPackage ./. {
     stdenv = gccCrossLibcStdenv; # doesn't compile without gcc
-    # TODO: Fix broken reference to libgcc
-    # libgcc = callPackage ../core/gcc/libgcc {
-    #   gcc = gccCrossLibcStdenv.cc;
-    #   glibc = glibcCross.override { libgcc = null; };
-    #   stdenvNoLibs = gccCrossLibcStdenv;
-    # };
+    libgcc = callPackage ./libgcc {
+      gcc = gccCrossLibcStdenv.cc;
+      glibc = glibcCross.override { libgcc = null; };
+      stdenvNoLibs = gccCrossLibcStdenv;
+    };
   };
 
   # Only supported on Linux and only on glibc

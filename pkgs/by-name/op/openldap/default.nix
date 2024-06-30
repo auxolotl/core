@@ -135,7 +135,7 @@ stdenv.mkDerivation rec {
     homepage = "https://www.openldap.org/";
     description = "An open source implementation of the Lightweight Directory Access Protocol";
     license = licenses.openldap;
-    maintainers = with maintainers; [ hexa ] ++ teams.helsinki-systems.members;
+    maintainers = [ ];
     platforms = platforms.unix;
   };
 }

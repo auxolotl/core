@@ -2,7 +2,8 @@
 , musl-obstack, m4, zlib, zstd, bzip2, bison, flex, gettext, xz, setupDebugInfoDirs
 , argp-standalone
 , enableDebuginfod ? true, sqlite, curl, libmicrohttpd, libarchive
-, gitUpdater
+# for passthru.tests
+# , gitUpdater
 }:
 
 # TODO: Look at the hardcoded paths to kernel, modules etc.
@@ -89,10 +90,10 @@ stdenv.mkDerivation rec {
   doInstallCheck = !stdenv.hostPlatform.isMusl
     && (stdenv.hostPlatform == stdenv.buildPlatform);
 
-  passthru.updateScript = gitUpdater {
-    url = "https://sourceware.org/git/elfutils.git";
-    rev-prefix = "elfutils-";
-  };
+  # passthru.updateScript = gitUpdater {
+  #   url = "https://sourceware.org/git/elfutils.git";
+  #   rev-prefix = "elfutils-";
+  # };
 
   meta = with lib; {
     homepage = "https://sourceware.org/elfutils/";

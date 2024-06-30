@@ -1,6 +1,6 @@
 { stdenvNoCC, fetchurl, newScope, lib, pkgs
 , stdenv, overrideCC
-, xar, cpio, python3, pbzx }:
+, xar, cpio, python3, pbzx, path }:
 
 let
   mkSusDerivation = args: stdenvNoCC.mkDerivation (args // {
@@ -120,7 +120,7 @@ let
       inherit (pkgs.darwin.apple_sdk_11_0) stdenv;
       inherit (pkgs) rustc cargo;
     } // {
-      inherit (pkgs.callPackage ../../../build-support/rust/hooks {
+      inherit (pkgs.callPackage (path + "/pkgs/build-support/rust/hooks") {
         inherit (pkgs.darwin.apple_sdk_11_0) stdenv;
         inherit (pkgs) cargo rustc;
         clang = mkCc pkgs.clang;

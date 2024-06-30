@@ -2384,7 +2384,7 @@ self: super: with self; {
 
 #   commoncode = callPackage ./python-modules/commoncode { };
 
-#   commonmark = callPackage ./python-modules/commonmark { };
+  commonmark = callPackage ./python-modules/commonmark { };
 
 #   compiledb = callPackage ./python-modules/compiledb { };
 
@@ -4562,7 +4562,7 @@ self: super: with self; {
 
 #   fusepy = callPackage ./python-modules/fusepy { };
 
-#   future = callPackage ./python-modules/future { };
+  future = callPackage ./python-modules/future { };
 
 #   future-fstrings = callPackage ./python-modules/future-fstrings { };
 
@@ -13030,7 +13030,7 @@ self: super: with self; {
 #     python3Packages = self;
 #   });
 
-#   recommonmark = callPackage ./python-modules/recommonmark { };
+  recommonmark = callPackage ./python-modules/recommonmark { };
 
 #   reconplogger = callPackage ./python-modules/reconplogger { };
 

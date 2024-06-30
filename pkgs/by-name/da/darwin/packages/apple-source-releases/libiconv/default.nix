@@ -1,6 +1,7 @@
 { stdenv, appleDerivation, lib
 , enableStatic ? stdenv.hostPlatform.isStatic
 , enableShared ? !stdenv.hostPlatform.isStatic
+, path
 }:
 
 appleDerivation {
@@ -27,8 +28,8 @@ appleDerivation {
   '';
 
   setupHooks = [
-    ../../../../build-support/setup-hooks/role.bash
-    ../../../../development/libraries/libiconv/setup-hook.sh
+    (path + "/pkgs/build-support/setup-hooks/role.bash")
+    (path + "/pkgs/by-name/li/libiconv/setup-hook.sh")
   ];
 
   meta = {
