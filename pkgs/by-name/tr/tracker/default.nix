@@ -175,7 +175,7 @@ stdenv.mkDerivation (finalAttrs: {
     homepage = "https://tracker.gnome.org/";
     description = "Desktop-neutral user information store, search tool and indexer";
     mainProgram = "tracker3";
-    maintainers = teams.gnome.members;
+    # maintainers = teams.gnome.members;
     license = licenses.gpl2Plus;
     platforms = platforms.unix;
     pkgConfigModules = [ "tracker-sparql-3.0" "tracker-testutils-3.0" ];

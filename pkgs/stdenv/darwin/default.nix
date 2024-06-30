@@ -129,7 +129,7 @@ let
 
       bash = prevStage.bash or bootstrapTools;
 
-      thisStdenv = import ../generic {
+      thisStdenv = import ../generic lib {
         name = "${name}-stdenv-darwin";
 
         buildPlatform = localSystem;
@@ -1208,7 +1208,7 @@ in
     in
     {
     inherit config overlays;
-    stdenv = import ../generic {
+    stdenv = import ../generic lib {
       name = "stdenv-darwin";
 
       buildPlatform = localSystem;

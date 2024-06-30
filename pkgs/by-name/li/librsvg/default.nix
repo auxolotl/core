@@ -219,7 +219,7 @@ stdenv.mkDerivation (finalAttrs: {
     description = "A small library to render SVG images to Cairo surfaces";
     homepage = "hhttps://gitlab.gnome.org/GNOME/librsvg";
     license = licenses.lgpl2Plus;
-    maintainers = teams.gnome.members;
+    # maintainers = teams.gnome.members;
     mainProgram = "rsvg-convert";
     platforms = platforms.unix;
   };

@@ -40,6 +40,6 @@ buildPythonPackage rec {
     changelog = "https://setuptools.pypa.io/en/stable/history.html#v${replaceStrings [ "." ] [ "-" ] version}";
     license = with licenses; [ mit ];
     platforms = python.meta.platforms;
-    maintainers = teams.python.members;
+    # maintainers = teams.python.members;
   };
 }
